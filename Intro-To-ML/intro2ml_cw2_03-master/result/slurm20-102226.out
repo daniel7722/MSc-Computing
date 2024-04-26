@@ -1,0 +1,2813 @@
+testing
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6929072646771447
+Iteration 10, Training loss = 0.2558791031722728
+Iteration 20, Training loss = 0.2428144640661325
+Iteration 30, Training loss = 0.2342482100333342
+Iteration 40, Training loss = 0.22702084938131867
+Iteration 50, Training loss = 0.2230368042432367
+Iteration 60, Training loss = 0.21972951341700034
+Iteration 70, Training loss = 0.21794174577292172
+Iteration 80, Training loss = 0.21551503379971293
+Iteration 90, Training loss = 0.21380194272963243
+Model training time: 61.50626063346863
+0.26345801186463275
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9482928240991967
+Iteration 10, Training loss = 0.3541423306049504
+Iteration 20, Training loss = 0.31807895744395315
+Iteration 30, Training loss = 0.30163816110057345
+Iteration 40, Training loss = 0.2898591631802462
+Iteration 50, Training loss = 0.28161865891324983
+Iteration 60, Training loss = 0.2756981050672312
+Iteration 70, Training loss = 0.27165594430004425
+Iteration 80, Training loss = 0.26880114915223735
+Iteration 90, Training loss = 0.2664312121546297
+Model training time: 52.669477462768555
+0.2772094992159603
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.5412900531190937
+Iteration 10, Training loss = 0.26499603950299017
+Iteration 20, Training loss = 0.2524747787715448
+Iteration 30, Training loss = 0.24478453695413274
+Iteration 40, Training loss = 0.24054921766603252
+Iteration 50, Training loss = 0.2360208065003229
+Iteration 60, Training loss = 0.23159919231769246
+Iteration 70, Training loss = 0.22879718514677977
+Iteration 80, Training loss = 0.22758042746500876
+Iteration 90, Training loss = 0.22604445413151897
+Model training time: 59.7773118019104
+0.2575451527329822
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0913204365290394
+Iteration 10, Training loss = 0.4258626593371569
+Iteration 20, Training loss = 0.34839913552090274
+Iteration 30, Training loss = 0.33143986150009
+Iteration 40, Training loss = 0.32178285676471835
+Iteration 50, Training loss = 0.31501327224129916
+Iteration 60, Training loss = 0.30914201761526
+Iteration 70, Training loss = 0.3042023701291107
+Iteration 80, Training loss = 0.29992493442271007
+Iteration 90, Training loss = 0.2962652104963113
+Model training time: 52.31580924987793
+0.28812010068258315
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.5365572247933822
+Iteration 10, Training loss = 0.254725618292431
+Iteration 20, Training loss = 0.23708591806830853
+Iteration 30, Training loss = 0.22793082774731785
+Iteration 40, Training loss = 0.22221062508283168
+Iteration 50, Training loss = 0.21691090176130035
+Iteration 60, Training loss = 0.21279114196144638
+Iteration 70, Training loss = 0.20916247826078613
+Iteration 80, Training loss = 0.20667378831717928
+Iteration 90, Training loss = 0.2048038437818211
+Iteration 100, Training loss = 0.20401379445310655
+Iteration 110, Training loss = 0.20135327614392842
+Iteration 120, Training loss = 0.20196021402358433
+Iteration 130, Training loss = 0.2009682786305938
+Iteration 140, Training loss = 0.20031850026428843
+Iteration 150, Training loss = 0.19991485101619585
+Iteration 160, Training loss = 0.19904579270910697
+Iteration 170, Training loss = 0.1992553762965283
+Iteration 180, Training loss = 0.19748950144388774
+Iteration 190, Training loss = 0.19792675067271506
+Model training time: 122.70168709754944
+0.2515976581008818
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9836835864814084
+Iteration 10, Training loss = 0.3532587884954621
+Iteration 20, Training loss = 0.3224204372226759
+Iteration 30, Training loss = 0.31118078077027067
+Iteration 40, Training loss = 0.3035970683103612
+Iteration 50, Training loss = 0.29732095372590256
+Iteration 60, Training loss = 0.2917655855597653
+Iteration 70, Training loss = 0.2864567696795625
+Iteration 80, Training loss = 0.28185665535291804
+Iteration 90, Training loss = 0.27802827950684267
+Iteration 100, Training loss = 0.2749076614620899
+Iteration 110, Training loss = 0.2722047329778821
+Iteration 120, Training loss = 0.2698756454390706
+Iteration 130, Training loss = 0.26779819638908053
+Iteration 140, Training loss = 0.26559396266720775
+Iteration 150, Training loss = 0.2640007567427349
+Iteration 160, Training loss = 0.2623071582496311
+Iteration 170, Training loss = 0.2608084360060911
+Iteration 180, Training loss = 0.2594504858080758
+Iteration 190, Training loss = 0.25788234031734397
+Model training time: 105.78840279579163
+0.2742627926101879
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6691844584578175
+Iteration 10, Training loss = 0.2804797904759862
+Iteration 20, Training loss = 0.2647767990160075
+Iteration 30, Training loss = 0.25554146522038207
+Iteration 40, Training loss = 0.24821750484136346
+Iteration 50, Training loss = 0.24239771481215522
+Iteration 60, Training loss = 0.23792837751402404
+Iteration 70, Training loss = 0.23453685278681807
+Iteration 80, Training loss = 0.23223034140922255
+Iteration 90, Training loss = 0.2310720781725775
+Iteration 100, Training loss = 0.2303420843750455
+Iteration 110, Training loss = 0.22957298870381085
+Iteration 120, Training loss = 0.22964923396778741
+Iteration 130, Training loss = 0.22920328800816803
+Iteration 140, Training loss = 0.22796349702786303
+Iteration 150, Training loss = 0.22769232406382411
+Iteration 160, Training loss = 0.2278039349518157
+Iteration 170, Training loss = 0.22714061088878076
+Iteration 180, Training loss = 0.22642813178261892
+Iteration 190, Training loss = 0.2258432884644221
+Model training time: 120.30437016487122
+0.2548403767837344
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0908278668475209
+Iteration 10, Training loss = 0.49424857489277607
+Iteration 20, Training loss = 0.3511234950860534
+Iteration 30, Training loss = 0.3257273196380306
+Iteration 40, Training loss = 0.3136320360383745
+Iteration 50, Training loss = 0.3058221897619977
+Iteration 60, Training loss = 0.29917816700499517
+Iteration 70, Training loss = 0.2933740333696832
+Iteration 80, Training loss = 0.28843387578936525
+Iteration 90, Training loss = 0.28476893044917984
+Iteration 100, Training loss = 0.28161004046767446
+Iteration 110, Training loss = 0.27894859996423593
+Iteration 120, Training loss = 0.27617389175671064
+Iteration 130, Training loss = 0.27436141720262625
+Iteration 140, Training loss = 0.2724165128810065
+Iteration 150, Training loss = 0.2706062910271037
+Iteration 160, Training loss = 0.2690231430075936
+Iteration 170, Training loss = 0.26785772005163727
+Iteration 180, Training loss = 0.26688656907249014
+Iteration 190, Training loss = 0.2655344295516141
+Model training time: 103.8966817855835
+0.2773269083515331
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.5039893177678453
+Iteration 10, Training loss = 0.2542387313653713
+Iteration 20, Training loss = 0.24557971143441107
+Iteration 30, Training loss = 0.23954286200803937
+Iteration 40, Training loss = 0.23593800294846656
+Iteration 50, Training loss = 0.23290948079082638
+Iteration 60, Training loss = 0.2294025457764076
+Iteration 70, Training loss = 0.22624275633122673
+Iteration 80, Training loss = 0.22338538790983092
+Iteration 90, Training loss = 0.22299500311258053
+Iteration 100, Training loss = 0.22079694773505731
+Iteration 110, Training loss = 0.21915513455651287
+Iteration 120, Training loss = 0.2163166447337401
+Iteration 130, Training loss = 0.21371286195538233
+Iteration 140, Training loss = 0.2131015267989826
+Iteration 150, Training loss = 0.21313732617126538
+Iteration 160, Training loss = 0.2109522558117317
+Iteration 170, Training loss = 0.20928273893008797
+Iteration 180, Training loss = 0.2092899083910785
+Iteration 190, Training loss = 0.20955384363923177
+Iteration 200, Training loss = 0.2076821231686896
+Iteration 210, Training loss = 0.20676110637065284
+Iteration 220, Training loss = 0.206424240672343
+Iteration 230, Training loss = 0.2052305262833473
+Iteration 240, Training loss = 0.20479818265749813
+Iteration 250, Training loss = 0.2040769737800155
+Iteration 260, Training loss = 0.20383391320055969
+Iteration 270, Training loss = 0.20245997308241542
+Iteration 280, Training loss = 0.20301843406609993
+Iteration 290, Training loss = 0.2032204412609411
+Model training time: 182.3906900882721
+0.2541879553845397
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0006781553096402
+Iteration 10, Training loss = 0.45300106545481783
+Iteration 20, Training loss = 0.3451798843089085
+Iteration 30, Training loss = 0.3214844885591156
+Iteration 40, Training loss = 0.3066740410343787
+Iteration 50, Training loss = 0.2964858286100785
+Iteration 60, Training loss = 0.28839860822256774
+Iteration 70, Training loss = 0.2830080607540671
+Iteration 80, Training loss = 0.2791093199651409
+Iteration 90, Training loss = 0.27568990904973145
+Iteration 100, Training loss = 0.27312205802225314
+Iteration 110, Training loss = 0.2711686938279477
+Iteration 120, Training loss = 0.2690558777919116
+Iteration 130, Training loss = 0.2669351880616772
+Iteration 140, Training loss = 0.2650276640245181
+Iteration 150, Training loss = 0.2636011725440441
+Iteration 160, Training loss = 0.26179882812766997
+Iteration 170, Training loss = 0.2601821362322814
+Iteration 180, Training loss = 0.25878226720969266
+Iteration 190, Training loss = 0.2573171548599481
+Iteration 200, Training loss = 0.2559553423567199
+Iteration 210, Training loss = 0.25467893553415166
+Iteration 220, Training loss = 0.2535292064595165
+Iteration 230, Training loss = 0.2526932983201439
+Iteration 240, Training loss = 0.25172656871937665
+Iteration 250, Training loss = 0.25077130532762615
+Iteration 260, Training loss = 0.2502119683144168
+Iteration 270, Training loss = 0.2494171125584307
+Iteration 280, Training loss = 0.248683985097212
+Iteration 290, Training loss = 0.24802576350025635
+Model training time: 155.65084958076477
+0.26952334399848804
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6576016681679224
+Iteration 10, Training loss = 0.26087064728970677
+Iteration 20, Training loss = 0.25061456927664344
+Iteration 30, Training loss = 0.24293046189386389
+Iteration 40, Training loss = 0.2371409537753239
+Iteration 50, Training loss = 0.2317580493938259
+Iteration 60, Training loss = 0.2290735765389611
+Iteration 70, Training loss = 0.22639085397521175
+Iteration 80, Training loss = 0.22522739726896726
+Iteration 90, Training loss = 0.223255554714734
+Iteration 100, Training loss = 0.22182169432140725
+Iteration 110, Training loss = 0.22146317519734615
+Iteration 120, Training loss = 0.21982656377784854
+Iteration 130, Training loss = 0.21877917218006263
+Iteration 140, Training loss = 0.2184631260829024
+Iteration 150, Training loss = 0.21832254902430365
+Iteration 160, Training loss = 0.21720583686384104
+Iteration 170, Training loss = 0.2169022473707326
+Iteration 180, Training loss = 0.21580452473775527
+Iteration 190, Training loss = 0.21628463980865825
+Iteration 200, Training loss = 0.21588180843767762
+Iteration 210, Training loss = 0.21416077385803112
+Iteration 220, Training loss = 0.21493986333758722
+Iteration 230, Training loss = 0.21492704945744961
+Iteration 240, Training loss = 0.21438998677576138
+Iteration 250, Training loss = 0.21466008822724547
+Iteration 260, Training loss = 0.21424993774323717
+Iteration 270, Training loss = 0.2144747420910917
+Iteration 280, Training loss = 0.21424894854787188
+Iteration 290, Training loss = 0.21400609571874574
+Model training time: 181.68269562721252
+0.2555129162455353
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9872053599675111
+Iteration 10, Training loss = 0.501187528521905
+Iteration 20, Training loss = 0.3953519916707609
+Iteration 30, Training loss = 0.3561984119129527
+Iteration 40, Training loss = 0.33402609606848505
+Iteration 50, Training loss = 0.319692431942314
+Iteration 60, Training loss = 0.30891362249346105
+Iteration 70, Training loss = 0.3003010878082338
+Iteration 80, Training loss = 0.2933806368391104
+Iteration 90, Training loss = 0.28780720465913523
+Iteration 100, Training loss = 0.2832621061412243
+Iteration 110, Training loss = 0.27936190969285896
+Iteration 120, Training loss = 0.2763238945754908
+Iteration 130, Training loss = 0.27391213496141226
+Iteration 140, Training loss = 0.27211459186694814
+Iteration 150, Training loss = 0.2700491486248035
+Iteration 160, Training loss = 0.2685342415553894
+Iteration 170, Training loss = 0.2671749354960266
+Iteration 180, Training loss = 0.2658552565853186
+Iteration 190, Training loss = 0.264532654521396
+Iteration 200, Training loss = 0.26336447467021734
+Iteration 210, Training loss = 0.2623063162979433
+Iteration 220, Training loss = 0.2614794140613974
+Iteration 230, Training loss = 0.2604737584152175
+Iteration 240, Training loss = 0.2596316506621624
+Iteration 250, Training loss = 0.259001328386637
+Iteration 260, Training loss = 0.25825712253445576
+Iteration 270, Training loss = 0.25762864285245646
+Iteration 280, Training loss = 0.2571714384612102
+Iteration 290, Training loss = 0.25664250475081635
+Model training time: 157.12265706062317
+0.27436879567015504
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.4453860270558489
+Iteration 10, Training loss = 0.2494725786402064
+Iteration 20, Training loss = 0.2380243587436168
+Iteration 30, Training loss = 0.2319308835065971
+Iteration 40, Training loss = 0.22766207064756758
+Iteration 50, Training loss = 0.2236342158249735
+Iteration 60, Training loss = 0.22156449950347512
+Iteration 70, Training loss = 0.21891152212896878
+Iteration 80, Training loss = 0.21517489385085303
+Iteration 90, Training loss = 0.2135669766016503
+Model training time: 59.84146738052368
+0.25144489120529057
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9177115025589598
+Iteration 10, Training loss = 0.3329529182998955
+Iteration 20, Training loss = 0.30225988753482735
+Iteration 30, Training loss = 0.2890694565511789
+Iteration 40, Training loss = 0.2801489149542755
+Iteration 50, Training loss = 0.2737383798991508
+Iteration 60, Training loss = 0.26922442489833576
+Iteration 70, Training loss = 0.26650196485239425
+Iteration 80, Training loss = 0.2642011314125384
+Iteration 90, Training loss = 0.2621451489465
+Model training time: 52.06444263458252
+0.2752979684699189
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.4371663768737426
+Iteration 10, Training loss = 0.256009238124904
+Iteration 20, Training loss = 0.24810079258774154
+Iteration 30, Training loss = 0.24329910662755838
+Iteration 40, Training loss = 0.2414087397892019
+Iteration 50, Training loss = 0.23759850897526336
+Iteration 60, Training loss = 0.23512663215976073
+Iteration 70, Training loss = 0.23137967696201425
+Iteration 80, Training loss = 0.22771066183688854
+Iteration 90, Training loss = 0.22661012522064455
+Model training time: 60.060444593429565
+0.25658877180070166
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.958348317382988
+Iteration 10, Training loss = 0.3405551899395901
+Iteration 20, Training loss = 0.30906669319253277
+Iteration 30, Training loss = 0.2942327138478473
+Iteration 40, Training loss = 0.2839046347047457
+Iteration 50, Training loss = 0.27603000461983046
+Iteration 60, Training loss = 0.2712683136829741
+Iteration 70, Training loss = 0.2676402114818806
+Iteration 80, Training loss = 0.2647911476165273
+Iteration 90, Training loss = 0.26232638307475004
+Model training time: 53.91595220565796
+0.27577706843255306
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.43243684114541037
+Iteration 10, Training loss = 0.2502373659365402
+Iteration 20, Training loss = 0.23480982501195072
+Iteration 30, Training loss = 0.22724655786524672
+Iteration 40, Training loss = 0.22036039374642452
+Iteration 50, Training loss = 0.2190235840116084
+Iteration 60, Training loss = 0.2159590645000952
+Iteration 70, Training loss = 0.211304283531757
+Iteration 80, Training loss = 0.20961223816900507
+Iteration 90, Training loss = 0.20781790288323063
+Iteration 100, Training loss = 0.20617736257233862
+Iteration 110, Training loss = 0.20549598436342603
+Iteration 120, Training loss = 0.20375162479411316
+Iteration 130, Training loss = 0.20257150432315923
+Iteration 140, Training loss = 0.20240098315563965
+Iteration 150, Training loss = 0.20191674104037066
+Iteration 160, Training loss = 0.2027658882390789
+Iteration 170, Training loss = 0.20140960226263896
+Iteration 180, Training loss = 0.2012011968862202
+Iteration 190, Training loss = 0.19904500777330295
+Model training time: 121.48511028289795
+0.2466558295691414
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9426128358442616
+Iteration 10, Training loss = 0.34073328547919346
+Iteration 20, Training loss = 0.30445155366064564
+Iteration 30, Training loss = 0.28494349002982455
+Iteration 40, Training loss = 0.27415279968310213
+Iteration 50, Training loss = 0.26720177329914335
+Iteration 60, Training loss = 0.2620445643946276
+Iteration 70, Training loss = 0.25874552605155016
+Iteration 80, Training loss = 0.2560429852410754
+Iteration 90, Training loss = 0.25382330594246094
+Iteration 100, Training loss = 0.25193702499889575
+Iteration 110, Training loss = 0.2504165390682278
+Iteration 120, Training loss = 0.24877329143643667
+Iteration 130, Training loss = 0.2472232409344747
+Iteration 140, Training loss = 0.24584604207128646
+Iteration 150, Training loss = 0.24455452827651045
+Iteration 160, Training loss = 0.24300123181094846
+Iteration 170, Training loss = 0.24159602382497694
+Iteration 180, Training loss = 0.24029227219900842
+Iteration 190, Training loss = 0.2386806382646572
+Model training time: 114.26393127441406
+0.2647295011303864
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.4798358780744578
+Iteration 10, Training loss = 0.2589174757280881
+Iteration 20, Training loss = 0.2472909209442485
+Iteration 30, Training loss = 0.23973328727534263
+Iteration 40, Training loss = 0.23561589284540665
+Iteration 50, Training loss = 0.23056848155059478
+Iteration 60, Training loss = 0.22701732003407385
+Iteration 70, Training loss = 0.22219255739782393
+Iteration 80, Training loss = 0.22037580672462107
+Iteration 90, Training loss = 0.22105245414859734
+Iteration 100, Training loss = 0.21790900333958158
+Iteration 110, Training loss = 0.21816748236339836
+Iteration 120, Training loss = 0.21662789382960548
+Iteration 130, Training loss = 0.21679983597438215
+Iteration 140, Training loss = 0.21457725328553387
+Iteration 150, Training loss = 0.21534366341934655
+Iteration 160, Training loss = 0.21578773453867753
+Iteration 170, Training loss = 0.21496442935404708
+Iteration 180, Training loss = 0.21340656783837672
+Iteration 190, Training loss = 0.2137434107610013
+Model training time: 126.4838514328003
+0.2543871652689069
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9815316680124251
+Iteration 10, Training loss = 0.3206433873019265
+Iteration 20, Training loss = 0.29820042276714387
+Iteration 30, Training loss = 0.2859167441112366
+Iteration 40, Training loss = 0.2784075940131564
+Iteration 50, Training loss = 0.2746312066136925
+Iteration 60, Training loss = 0.27106283965901656
+Iteration 70, Training loss = 0.26855798881077014
+Iteration 80, Training loss = 0.265662795171755
+Iteration 90, Training loss = 0.26275588851647574
+Iteration 100, Training loss = 0.2602744768700646
+Iteration 110, Training loss = 0.25800451571369865
+Iteration 120, Training loss = 0.25614986709402493
+Iteration 130, Training loss = 0.25462302966065903
+Iteration 140, Training loss = 0.25324952317352156
+Iteration 150, Training loss = 0.2515599881693468
+Iteration 160, Training loss = 0.25011783454016967
+Iteration 170, Training loss = 0.24801325958591974
+Iteration 180, Training loss = 0.24650112985121425
+Iteration 190, Training loss = 0.24451629548687623
+Model training time: 104.0800244808197
+0.2660370857142589
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.4083587505085705
+Iteration 10, Training loss = 0.25391170378891664
+Iteration 20, Training loss = 0.24073498301009577
+Iteration 30, Training loss = 0.23339289820078787
+Iteration 40, Training loss = 0.2263183740686995
+Iteration 50, Training loss = 0.21766254858770034
+Iteration 60, Training loss = 0.21443267378586256
+Iteration 70, Training loss = 0.21119551131497283
+Iteration 80, Training loss = 0.21243836902100008
+Iteration 90, Training loss = 0.20912690825994887
+Iteration 100, Training loss = 0.20754296284791343
+Iteration 110, Training loss = 0.2064080018974101
+Iteration 120, Training loss = 0.2066840486325883
+Iteration 130, Training loss = 0.20505524779383552
+Iteration 140, Training loss = 0.2026595350977295
+Iteration 150, Training loss = 0.20292755251538377
+Iteration 160, Training loss = 0.20155904396971547
+Iteration 170, Training loss = 0.2013064264782116
+Iteration 180, Training loss = 0.20124560131828953
+Iteration 190, Training loss = 0.20000144472169817
+Iteration 200, Training loss = 0.2008960539560774
+Iteration 210, Training loss = 0.19917198724269
+Iteration 220, Training loss = 0.1974580321397822
+Iteration 230, Training loss = 0.19752100581803853
+Iteration 240, Training loss = 0.1979590039835571
+Iteration 250, Training loss = 0.1981956126488583
+Iteration 260, Training loss = 0.19829082255844777
+Iteration 270, Training loss = 0.19610996763548896
+Iteration 280, Training loss = 0.19646766697018256
+Iteration 290, Training loss = 0.1958566727725559
+Model training time: 181.44471526145935
+0.25564775187386485
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9870224526517327
+Iteration 10, Training loss = 0.3453246723797362
+Iteration 20, Training loss = 0.3087886399961557
+Iteration 30, Training loss = 0.29153061679792175
+Iteration 40, Training loss = 0.2810035512464676
+Iteration 50, Training loss = 0.27338477512753906
+Iteration 60, Training loss = 0.2684519491530504
+Iteration 70, Training loss = 0.26479823508505096
+Iteration 80, Training loss = 0.2622285089196218
+Iteration 90, Training loss = 0.2596793044854596
+Iteration 100, Training loss = 0.25731743689960196
+Iteration 110, Training loss = 0.25546122189006853
+Iteration 120, Training loss = 0.25350815674727534
+Iteration 130, Training loss = 0.25140636241104064
+Iteration 140, Training loss = 0.25013721496155417
+Iteration 150, Training loss = 0.24816999607888607
+Iteration 160, Training loss = 0.2470243191459277
+Iteration 170, Training loss = 0.24573284212599078
+Iteration 180, Training loss = 0.24438546323747382
+Iteration 190, Training loss = 0.24349331918914438
+Iteration 200, Training loss = 0.24205451050083227
+Iteration 210, Training loss = 0.24103780630209257
+Iteration 220, Training loss = 0.23955218402835704
+Iteration 230, Training loss = 0.23812277423844788
+Iteration 240, Training loss = 0.23727078030458662
+Iteration 250, Training loss = 0.23628722610218184
+Iteration 260, Training loss = 0.23514530672432435
+Iteration 270, Training loss = 0.23405661189491178
+Iteration 280, Training loss = 0.23373930857992634
+Iteration 290, Training loss = 0.2324095222079725
+Model training time: 157.79014682769775
+0.263716083598598
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6106907917642131
+Iteration 10, Training loss = 0.25599287513454083
+Iteration 20, Training loss = 0.24412909076158995
+Iteration 30, Training loss = 0.2375837004321828
+Iteration 40, Training loss = 0.23558814126375802
+Iteration 50, Training loss = 0.23173585011833517
+Iteration 60, Training loss = 0.22932689835387338
+Iteration 70, Training loss = 0.22712350326430134
+Iteration 80, Training loss = 0.22646435382651936
+Iteration 90, Training loss = 0.22372742412165347
+Iteration 100, Training loss = 0.22357173766444727
+Iteration 110, Training loss = 0.22059114973712488
+Iteration 120, Training loss = 0.22056929918669038
+Iteration 130, Training loss = 0.2206652016349624
+Iteration 140, Training loss = 0.21981138059504096
+Iteration 150, Training loss = 0.21867375915585938
+Iteration 160, Training loss = 0.21827217489120168
+Iteration 170, Training loss = 0.2181127194414416
+Iteration 180, Training loss = 0.21988890601488925
+Iteration 190, Training loss = 0.2183708861903186
+Iteration 200, Training loss = 0.21808172236523674
+Iteration 210, Training loss = 0.21874470768843668
+Iteration 220, Training loss = 0.2174191435947834
+Iteration 230, Training loss = 0.2175396925726901
+Iteration 240, Training loss = 0.2181946645348759
+Iteration 250, Training loss = 0.21659862770547877
+Iteration 260, Training loss = 0.21695183825478426
+Iteration 270, Training loss = 0.21562942553122164
+Iteration 280, Training loss = 0.21586464217370127
+Iteration 290, Training loss = 0.2166952186559505
+Model training time: 180.61454224586487
+0.2562581483055544
+{'activation_functions': ['relu', 'relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0144924726382294
+Iteration 10, Training loss = 0.3952538860695703
+Iteration 20, Training loss = 0.3231162986657233
+Iteration 30, Training loss = 0.2985158030295487
+Iteration 40, Training loss = 0.28584775316008065
+Iteration 50, Training loss = 0.27933556204052873
+Iteration 60, Training loss = 0.2749394295831858
+Iteration 70, Training loss = 0.27142877215587197
+Iteration 80, Training loss = 0.2678659268391046
+Iteration 90, Training loss = 0.26507947240340507
+Iteration 100, Training loss = 0.2622971044037013
+Iteration 110, Training loss = 0.2601128494046791
+Iteration 120, Training loss = 0.2582752075560445
+Iteration 130, Training loss = 0.2571126691473887
+Iteration 140, Training loss = 0.25559974858677126
+Iteration 150, Training loss = 0.254637547342454
+Iteration 160, Training loss = 0.25350315560368014
+Iteration 170, Training loss = 0.2523815643412149
+Iteration 180, Training loss = 0.25143621299082086
+Iteration 190, Training loss = 0.25055586564699617
+Iteration 200, Training loss = 0.24993500323654952
+Iteration 210, Training loss = 0.2491198751994253
+Iteration 220, Training loss = 0.2484206307598234
+Iteration 230, Training loss = 0.24806806668819584
+Iteration 240, Training loss = 0.24770832862750092
+Iteration 250, Training loss = 0.24724042608648467
+Iteration 260, Training loss = 0.2471262378748912
+Iteration 270, Training loss = 0.2464997667016475
+Iteration 280, Training loss = 0.2457781454444509
+Iteration 290, Training loss = 0.24575319289980732
+Model training time: 158.86556720733643
+0.2709693420485395
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6247968770167678
+Iteration 10, Training loss = 0.26522819355922045
+Iteration 20, Training loss = 0.24918567669996317
+Iteration 30, Training loss = 0.24067745966035964
+Iteration 40, Training loss = 0.23399743135424628
+Iteration 50, Training loss = 0.22929518464682758
+Iteration 60, Training loss = 0.2279201452642823
+Iteration 70, Training loss = 0.22585966999548068
+Iteration 80, Training loss = 0.22331758343799102
+Iteration 90, Training loss = 0.22134226312239966
+Model training time: 33.75607872009277
+0.2541452349484136
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9662127739565384
+Iteration 10, Training loss = 0.43151587694163485
+Iteration 20, Training loss = 0.34539717155090277
+Iteration 30, Training loss = 0.3304773792264542
+Iteration 40, Training loss = 0.32188234690594786
+Iteration 50, Training loss = 0.3170969431526995
+Iteration 60, Training loss = 0.31184712772208134
+Iteration 70, Training loss = 0.3080922804304943
+Iteration 80, Training loss = 0.3042028191440923
+Iteration 90, Training loss = 0.30020466079746466
+Model training time: 29.845582008361816
+0.2937097801510821
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.8643455796195689
+Iteration 10, Training loss = 0.2710988701901574
+Iteration 20, Training loss = 0.259211250477367
+Iteration 30, Training loss = 0.25184025226727774
+Iteration 40, Training loss = 0.24745988669458796
+Iteration 50, Training loss = 0.2438851534816378
+Iteration 60, Training loss = 0.23941164859683042
+Iteration 70, Training loss = 0.23690233707140032
+Iteration 80, Training loss = 0.23309183145922738
+Iteration 90, Training loss = 0.2307666833130058
+Model training time: 33.85899519920349
+0.26045114367549965
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0275225210304997
+Iteration 10, Training loss = 0.9075272149509854
+Iteration 20, Training loss = 0.49245144203665175
+Iteration 30, Training loss = 0.41065889503356917
+Iteration 40, Training loss = 0.3727295033021826
+Iteration 50, Training loss = 0.3550699072471563
+Iteration 60, Training loss = 0.34386188691652914
+Iteration 70, Training loss = 0.3364642967924404
+Iteration 80, Training loss = 0.33090442354264465
+Iteration 90, Training loss = 0.32594623132316386
+Model training time: 30.131546020507812
+0.3034698666115011
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6308613816897074
+Iteration 10, Training loss = 0.26580386011352863
+Iteration 20, Training loss = 0.25238845159034223
+Iteration 30, Training loss = 0.2452714726112891
+Iteration 40, Training loss = 0.24079375012197357
+Iteration 50, Training loss = 0.23580639053514038
+Iteration 60, Training loss = 0.23426929670543487
+Iteration 70, Training loss = 0.23129821878268522
+Iteration 80, Training loss = 0.22998361854593535
+Iteration 90, Training loss = 0.22730232969574307
+Iteration 100, Training loss = 0.22675762563080026
+Iteration 110, Training loss = 0.22516867773976304
+Iteration 120, Training loss = 0.22332517964684445
+Iteration 130, Training loss = 0.22375731126985687
+Iteration 140, Training loss = 0.22342133442848777
+Iteration 150, Training loss = 0.22174313124539197
+Iteration 160, Training loss = 0.2205729569501923
+Iteration 170, Training loss = 0.21962185103248283
+Iteration 180, Training loss = 0.22058158857378982
+Iteration 190, Training loss = 0.22090962932305636
+Model training time: 67.5298216342926
+0.25651655809442336
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.021748791858194
+Iteration 10, Training loss = 0.5159373385606757
+Iteration 20, Training loss = 0.3716692584724242
+Iteration 30, Training loss = 0.3464248653339303
+Iteration 40, Training loss = 0.33209521629384176
+Iteration 50, Training loss = 0.32224971415915926
+Iteration 60, Training loss = 0.3152060342439707
+Iteration 70, Training loss = 0.3095832742426706
+Iteration 80, Training loss = 0.3051350115290011
+Iteration 90, Training loss = 0.30070452082560256
+Iteration 100, Training loss = 0.2968556031152822
+Iteration 110, Training loss = 0.29307077209586685
+Iteration 120, Training loss = 0.289974643268447
+Iteration 130, Training loss = 0.28690314645640513
+Iteration 140, Training loss = 0.28329875474966665
+Iteration 150, Training loss = 0.2800775992049687
+Iteration 160, Training loss = 0.2774697903201776
+Iteration 170, Training loss = 0.2749411375914219
+Iteration 180, Training loss = 0.27298210989593885
+Iteration 190, Training loss = 0.27127486380977905
+Model training time: 59.106372594833374
+0.28034443273366383
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.8868036710697672
+Iteration 10, Training loss = 0.2808038478240299
+Iteration 20, Training loss = 0.2675905502648745
+Iteration 30, Training loss = 0.26135015325701755
+Iteration 40, Training loss = 0.25782434242791025
+Iteration 50, Training loss = 0.25377553071520753
+Iteration 60, Training loss = 0.25226807817456803
+Iteration 70, Training loss = 0.24798976140465714
+Iteration 80, Training loss = 0.24589355523891496
+Iteration 90, Training loss = 0.24321491390034772
+Iteration 100, Training loss = 0.24218922756288364
+Iteration 110, Training loss = 0.24083679101029457
+Iteration 120, Training loss = 0.23780203542271675
+Iteration 130, Training loss = 0.23574810809847238
+Iteration 140, Training loss = 0.23459127383387607
+Iteration 150, Training loss = 0.23308494175977754
+Iteration 160, Training loss = 0.23326467405914683
+Iteration 170, Training loss = 0.23166303660558618
+Iteration 180, Training loss = 0.23042839034887905
+Iteration 190, Training loss = 0.22973313452540964
+Model training time: 67.93433332443237
+0.26017562641400027
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0761338921560757
+Iteration 10, Training loss = 0.6241568468043194
+Iteration 20, Training loss = 0.40206655996721147
+Iteration 30, Training loss = 0.355747320657767
+Iteration 40, Training loss = 0.33278147019625864
+Iteration 50, Training loss = 0.3223698783467933
+Iteration 60, Training loss = 0.3157281946156912
+Iteration 70, Training loss = 0.3111532418336269
+Iteration 80, Training loss = 0.3073237927783515
+Iteration 90, Training loss = 0.3047661422099468
+Iteration 100, Training loss = 0.30065506977447565
+Iteration 110, Training loss = 0.2974801650945691
+Iteration 120, Training loss = 0.2947481643534513
+Iteration 130, Training loss = 0.29162501712928074
+Iteration 140, Training loss = 0.2889070323339983
+Iteration 150, Training loss = 0.28630008012200325
+Iteration 160, Training loss = 0.28341660925731565
+Iteration 170, Training loss = 0.28146175471480916
+Iteration 180, Training loss = 0.2787451815346013
+Iteration 190, Training loss = 0.276967896859427
+Model training time: 60.11230754852295
+0.28167713987202536
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.7115248974394683
+Iteration 10, Training loss = 0.26414130055818
+Iteration 20, Training loss = 0.24578326008314097
+Iteration 30, Training loss = 0.23646960069159956
+Iteration 40, Training loss = 0.22919502591597285
+Iteration 50, Training loss = 0.22592907931637649
+Iteration 60, Training loss = 0.22348300968679252
+Iteration 70, Training loss = 0.22038547851253246
+Iteration 80, Training loss = 0.21766878441336074
+Iteration 90, Training loss = 0.216391878499501
+Iteration 100, Training loss = 0.21454728740280954
+Iteration 110, Training loss = 0.21157562664309562
+Iteration 120, Training loss = 0.21064527755702175
+Iteration 130, Training loss = 0.20997842062930555
+Iteration 140, Training loss = 0.20957031046998673
+Iteration 150, Training loss = 0.2090584708440707
+Iteration 160, Training loss = 0.20776966350953935
+Iteration 170, Training loss = 0.207489928977501
+Iteration 180, Training loss = 0.20584539529206097
+Iteration 190, Training loss = 0.2064879320309934
+Iteration 200, Training loss = 0.20457328496059934
+Iteration 210, Training loss = 0.20586804674875334
+Iteration 220, Training loss = 0.20405614250092116
+Iteration 230, Training loss = 0.20422831426064172
+Iteration 240, Training loss = 0.20365482896278445
+Iteration 250, Training loss = 0.20183625554548945
+Iteration 260, Training loss = 0.20153356156343424
+Iteration 270, Training loss = 0.20188066399327798
+Iteration 280, Training loss = 0.20146891741073075
+Iteration 290, Training loss = 0.19982052126512434
+Model training time: 101.49440836906433
+0.24836814219295583
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.086869331949575
+Iteration 10, Training loss = 0.6420697222873208
+Iteration 20, Training loss = 0.37214352478439683
+Iteration 30, Training loss = 0.341701947764498
+Iteration 40, Training loss = 0.32819781045694857
+Iteration 50, Training loss = 0.31848012321237207
+Iteration 60, Training loss = 0.3125712099858528
+Iteration 70, Training loss = 0.30742346297427653
+Iteration 80, Training loss = 0.3025195191879779
+Iteration 90, Training loss = 0.29760847647408933
+Iteration 100, Training loss = 0.29456662735789296
+Iteration 110, Training loss = 0.29132103790407593
+Iteration 120, Training loss = 0.2884532597977758
+Iteration 130, Training loss = 0.28608898278595746
+Iteration 140, Training loss = 0.2829895103035342
+Iteration 150, Training loss = 0.2803445971674389
+Iteration 160, Training loss = 0.27791164851419015
+Iteration 170, Training loss = 0.27557189827379974
+Iteration 180, Training loss = 0.27347935721782096
+Iteration 190, Training loss = 0.2713071351537958
+Iteration 200, Training loss = 0.2704960956161725
+Iteration 210, Training loss = 0.2678643845849567
+Iteration 220, Training loss = 0.2664987725984071
+Iteration 230, Training loss = 0.2648443846742888
+Iteration 240, Training loss = 0.2638157188604419
+Iteration 250, Training loss = 0.2625539921907987
+Iteration 260, Training loss = 0.26202949107701073
+Iteration 270, Training loss = 0.25982271840318966
+Iteration 280, Training loss = 0.2588653949579755
+Iteration 290, Training loss = 0.2579023652318595
+Model training time: 91.01042771339417
+0.2750566060411083
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 1.0625990027390817
+Iteration 10, Training loss = 0.2955409556915219
+Iteration 20, Training loss = 0.2652815126494509
+Iteration 30, Training loss = 0.25320524103255665
+Iteration 40, Training loss = 0.24641415890720156
+Iteration 50, Training loss = 0.24096516357815784
+Iteration 60, Training loss = 0.23935247165857307
+Iteration 70, Training loss = 0.23535863824800593
+Iteration 80, Training loss = 0.23540319415970126
+Iteration 90, Training loss = 0.23213938220543562
+Iteration 100, Training loss = 0.23118207560501236
+Iteration 110, Training loss = 0.23090532162915106
+Iteration 120, Training loss = 0.22980294657358225
+Iteration 130, Training loss = 0.23018343699871055
+Iteration 140, Training loss = 0.2271612924726113
+Iteration 150, Training loss = 0.22738234194868429
+Iteration 160, Training loss = 0.22593277052116856
+Iteration 170, Training loss = 0.22659079237404653
+Iteration 180, Training loss = 0.22449378150960672
+Iteration 190, Training loss = 0.22508066014391212
+Iteration 200, Training loss = 0.22399970622742232
+Iteration 210, Training loss = 0.22436494124684356
+Iteration 220, Training loss = 0.22428803772166156
+Iteration 230, Training loss = 0.22388196106694172
+Iteration 240, Training loss = 0.22348121712029267
+Iteration 250, Training loss = 0.22207992167576499
+Iteration 260, Training loss = 0.22141908969424198
+Iteration 270, Training loss = 0.22227535799937548
+Iteration 280, Training loss = 0.22159855906370182
+Iteration 290, Training loss = 0.2208550664897702
+Model training time: 101.50180149078369
+0.2573484550052443
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.05007167858778
+Iteration 10, Training loss = 0.4894119034642759
+Iteration 20, Training loss = 0.3630611499870457
+Iteration 30, Training loss = 0.34125431717018
+Iteration 40, Training loss = 0.3323926962012254
+Iteration 50, Training loss = 0.32426747082224217
+Iteration 60, Training loss = 0.3192165267928211
+Iteration 70, Training loss = 0.313016425224318
+Iteration 80, Training loss = 0.3082286900512262
+Iteration 90, Training loss = 0.302499536982769
+Iteration 100, Training loss = 0.29899887755009286
+Iteration 110, Training loss = 0.295144236282162
+Iteration 120, Training loss = 0.29128533277822577
+Iteration 130, Training loss = 0.28913035614478994
+Iteration 140, Training loss = 0.2862375608244956
+Iteration 150, Training loss = 0.28340524327063904
+Iteration 160, Training loss = 0.28122411329965086
+Iteration 170, Training loss = 0.27886696375798486
+Iteration 180, Training loss = 0.2772046705878875
+Iteration 190, Training loss = 0.27523690015797453
+Iteration 200, Training loss = 0.27476164083118026
+Iteration 210, Training loss = 0.2729904008804312
+Iteration 220, Training loss = 0.2712644879224796
+Iteration 230, Training loss = 0.270188986895165
+Iteration 240, Training loss = 0.269120401662329
+Iteration 250, Training loss = 0.26812278824871866
+Iteration 260, Training loss = 0.2679868561850078
+Iteration 270, Training loss = 0.2666102641662538
+Iteration 280, Training loss = 0.2655760350002759
+Iteration 290, Training loss = 0.2650276027655832
+Model training time: 89.55679035186768
+0.2781356670542297
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.49593968711037567
+Iteration 10, Training loss = 0.25233066621897876
+Iteration 20, Training loss = 0.23526266512375524
+Iteration 30, Training loss = 0.22471001434729296
+Iteration 40, Training loss = 0.21685768433527094
+Iteration 50, Training loss = 0.21224583390254328
+Iteration 60, Training loss = 0.2099675811143313
+Iteration 70, Training loss = 0.2092656201282561
+Iteration 80, Training loss = 0.20586901847363095
+Iteration 90, Training loss = 0.20500275813007124
+Model training time: 34.64775824546814
+0.24974324154357772
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9163423837095067
+Iteration 10, Training loss = 0.39474387481304757
+Iteration 20, Training loss = 0.3482613074030853
+Iteration 30, Training loss = 0.3298572788491917
+Iteration 40, Training loss = 0.3198704003279912
+Iteration 50, Training loss = 0.31361746672846846
+Iteration 60, Training loss = 0.3079104803610539
+Iteration 70, Training loss = 0.3041419543073949
+Iteration 80, Training loss = 0.30065528623723753
+Iteration 90, Training loss = 0.2968603790814174
+Model training time: 29.78294587135315
+0.29245324552563473
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.5525255391851139
+Iteration 10, Training loss = 0.25158571833429705
+Iteration 20, Training loss = 0.24103324464409823
+Iteration 30, Training loss = 0.23432620060472673
+Iteration 40, Training loss = 0.23038450786888887
+Iteration 50, Training loss = 0.22827573512919283
+Iteration 60, Training loss = 0.2256687507033348
+Iteration 70, Training loss = 0.22402030902640255
+Iteration 80, Training loss = 0.22293933131844526
+Iteration 90, Training loss = 0.2218053934438793
+Model training time: 36.37109661102295
+0.2579268347465586
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9860847468537409
+Iteration 10, Training loss = 0.36728115379810333
+Iteration 20, Training loss = 0.3314027319063887
+Iteration 30, Training loss = 0.3187512415258781
+Iteration 40, Training loss = 0.31065061191717785
+Iteration 50, Training loss = 0.3029697774257061
+Iteration 60, Training loss = 0.2962847186459435
+Iteration 70, Training loss = 0.29005160168317207
+Iteration 80, Training loss = 0.28494515280792676
+Iteration 90, Training loss = 0.28060498711279624
+Model training time: 33.21577715873718
+0.2813766526325752
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.4830947817091781
+Iteration 10, Training loss = 0.24788522597960228
+Iteration 20, Training loss = 0.23430536212264627
+Iteration 30, Training loss = 0.22698323788562258
+Iteration 40, Training loss = 0.22108966324496385
+Iteration 50, Training loss = 0.21982582726916253
+Iteration 60, Training loss = 0.21600757787624994
+Iteration 70, Training loss = 0.2153583156025928
+Iteration 80, Training loss = 0.21339998664199442
+Iteration 90, Training loss = 0.21233331016152376
+Iteration 100, Training loss = 0.21116387595733008
+Iteration 110, Training loss = 0.20833142535482052
+Iteration 120, Training loss = 0.20891144195040642
+Iteration 130, Training loss = 0.20760611005595342
+Iteration 140, Training loss = 0.2068706131067829
+Iteration 150, Training loss = 0.20507130883454125
+Iteration 160, Training loss = 0.2047498564141384
+Iteration 170, Training loss = 0.2043523863317886
+Iteration 180, Training loss = 0.20226599024113825
+Iteration 190, Training loss = 0.2017879987468466
+Model training time: 74.03533458709717
+0.24568376301735692
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0091954037763071
+Iteration 10, Training loss = 0.3633610789758572
+Iteration 20, Training loss = 0.3335823324567454
+Iteration 30, Training loss = 0.3180640007274738
+Iteration 40, Training loss = 0.3072769599404312
+Iteration 50, Training loss = 0.2980698616320384
+Iteration 60, Training loss = 0.2916345656781957
+Iteration 70, Training loss = 0.28631151586339093
+Iteration 80, Training loss = 0.28172109355241204
+Iteration 90, Training loss = 0.2777772611322034
+Iteration 100, Training loss = 0.2748101808598652
+Iteration 110, Training loss = 0.2728691052843407
+Iteration 120, Training loss = 0.2694550571954193
+Iteration 130, Training loss = 0.26770137142444
+Iteration 140, Training loss = 0.264551426657444
+Iteration 150, Training loss = 0.2632163395916206
+Iteration 160, Training loss = 0.26188167127002265
+Iteration 170, Training loss = 0.2602530013103992
+Iteration 180, Training loss = 0.2586002150811435
+Iteration 190, Training loss = 0.25771148783573206
+Model training time: 59.95154118537903
+0.27439086314358935
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6346434805416254
+Iteration 10, Training loss = 0.2609699757202812
+Iteration 20, Training loss = 0.25050214836418916
+Iteration 30, Training loss = 0.24446452974121352
+Iteration 40, Training loss = 0.24034524417441824
+Iteration 50, Training loss = 0.23699331953041797
+Iteration 60, Training loss = 0.23527174720153715
+Iteration 70, Training loss = 0.23148218790690103
+Iteration 80, Training loss = 0.22965840459013906
+Iteration 90, Training loss = 0.2270351261764333
+Iteration 100, Training loss = 0.22606035807858343
+Iteration 110, Training loss = 0.22469855103515773
+Iteration 120, Training loss = 0.22362836533122593
+Iteration 130, Training loss = 0.22190368754996193
+Iteration 140, Training loss = 0.2201959810755103
+Iteration 150, Training loss = 0.22048935960024452
+Iteration 160, Training loss = 0.21969584928114633
+Iteration 170, Training loss = 0.21802578510149664
+Iteration 180, Training loss = 0.21820368689759342
+Iteration 190, Training loss = 0.21721920763380861
+Model training time: 68.16988039016724
+0.25377397381673333
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0552266029919979
+Iteration 10, Training loss = 0.37515453245616764
+Iteration 20, Training loss = 0.32947241662493076
+Iteration 30, Training loss = 0.3168043726020389
+Iteration 40, Training loss = 0.3069922364708306
+Iteration 50, Training loss = 0.2997896420063028
+Iteration 60, Training loss = 0.2925945030534325
+Iteration 70, Training loss = 0.28696890096157646
+Iteration 80, Training loss = 0.28222558579007206
+Iteration 90, Training loss = 0.27762053924914143
+Iteration 100, Training loss = 0.2739461269499599
+Iteration 110, Training loss = 0.2709066072379909
+Iteration 120, Training loss = 0.2679821004470189
+Iteration 130, Training loss = 0.2652148636066971
+Iteration 140, Training loss = 0.2634704749725291
+Iteration 150, Training loss = 0.26224584179224025
+Iteration 160, Training loss = 0.2596360798115316
+Iteration 170, Training loss = 0.25817168435612736
+Iteration 180, Training loss = 0.25725989461233073
+Iteration 190, Training loss = 0.2565494516261534
+Model training time: 60.04601788520813
+0.27294520918003795
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.5207514945003722
+Iteration 10, Training loss = 0.25297291450886333
+Iteration 20, Training loss = 0.24048829226246202
+Iteration 30, Training loss = 0.23412260301591117
+Iteration 40, Training loss = 0.22962190703925303
+Iteration 50, Training loss = 0.22631679946817637
+Iteration 60, Training loss = 0.22171918576322316
+Iteration 70, Training loss = 0.2181183538503117
+Iteration 80, Training loss = 0.2141999847431114
+Iteration 90, Training loss = 0.21191558447005093
+Iteration 100, Training loss = 0.21025106271251964
+Iteration 110, Training loss = 0.21067553506669215
+Iteration 120, Training loss = 0.2088275200502884
+Iteration 130, Training loss = 0.20802821553703668
+Iteration 140, Training loss = 0.20592028752041325
+Iteration 150, Training loss = 0.20615533933691357
+Iteration 160, Training loss = 0.20526579562304675
+Iteration 170, Training loss = 0.2073520585750612
+Iteration 180, Training loss = 0.2048662035289594
+Iteration 190, Training loss = 0.20542970378905678
+Iteration 200, Training loss = 0.203779022798734
+Iteration 210, Training loss = 0.2045521762420014
+Iteration 220, Training loss = 0.20424819244566747
+Iteration 230, Training loss = 0.20435447785733402
+Iteration 240, Training loss = 0.20115389728891678
+Iteration 250, Training loss = 0.20186206594037548
+Iteration 260, Training loss = 0.20039991742890814
+Iteration 270, Training loss = 0.20114353990209274
+Iteration 280, Training loss = 0.19959574232354832
+Iteration 290, Training loss = 0.20059870453416437
+Model training time: 103.92998027801514
+0.2448172964505305
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0179089601489082
+Iteration 10, Training loss = 0.425868425824216
+Iteration 20, Training loss = 0.3459688168073046
+Iteration 30, Training loss = 0.3253186687755124
+Iteration 40, Training loss = 0.31328259322090424
+Iteration 50, Training loss = 0.30254599365635193
+Iteration 60, Training loss = 0.29414102337930514
+Iteration 70, Training loss = 0.2868151621182184
+Iteration 80, Training loss = 0.28103457088919653
+Iteration 90, Training loss = 0.276828878995589
+Iteration 100, Training loss = 0.2728894350753314
+Iteration 110, Training loss = 0.2697033684538758
+Iteration 120, Training loss = 0.26758775878067753
+Iteration 130, Training loss = 0.2647961417689991
+Iteration 140, Training loss = 0.26319664759912353
+Iteration 150, Training loss = 0.26174091983244613
+Iteration 160, Training loss = 0.26090816512775883
+Iteration 170, Training loss = 0.25871955664549473
+Iteration 180, Training loss = 0.25766102213790454
+Iteration 190, Training loss = 0.2556605996285084
+Iteration 200, Training loss = 0.2548466571719174
+Iteration 210, Training loss = 0.25339928697704694
+Iteration 220, Training loss = 0.2526732862787546
+Iteration 230, Training loss = 0.2511297392744373
+Iteration 240, Training loss = 0.24960430743901627
+Iteration 250, Training loss = 0.24833962692010805
+Iteration 260, Training loss = 0.24715239810194947
+Iteration 270, Training loss = 0.24661427966638463
+Iteration 280, Training loss = 0.24541996764963953
+Iteration 290, Training loss = 0.24421755695976496
+Model training time: 91.8660032749176
+0.2674061887787611
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.5754055326831513
+Iteration 10, Training loss = 0.2702580759490746
+Iteration 20, Training loss = 0.2599955374635936
+Iteration 30, Training loss = 0.2545991873251643
+Iteration 40, Training loss = 0.2509876454006071
+Iteration 50, Training loss = 0.24613115724158172
+Iteration 60, Training loss = 0.2440139025017835
+Iteration 70, Training loss = 0.2437972253287472
+Iteration 80, Training loss = 0.2406848985791782
+Iteration 90, Training loss = 0.23817161477850254
+Iteration 100, Training loss = 0.2374857241548778
+Iteration 110, Training loss = 0.23575397670844903
+Iteration 120, Training loss = 0.23299614404854568
+Iteration 130, Training loss = 0.23361731882112613
+Iteration 140, Training loss = 0.22972635064580013
+Iteration 150, Training loss = 0.22943074270578975
+Iteration 160, Training loss = 0.2285082819669143
+Iteration 170, Training loss = 0.22504956264426743
+Iteration 180, Training loss = 0.2256228013890953
+Iteration 190, Training loss = 0.2240052939829043
+Iteration 200, Training loss = 0.22252123075838826
+Iteration 210, Training loss = 0.22242451833498075
+Iteration 220, Training loss = 0.2230501279666804
+Iteration 230, Training loss = 0.22071989186576024
+Iteration 240, Training loss = 0.22113325767183073
+Iteration 250, Training loss = 0.22199889776355403
+Iteration 260, Training loss = 0.22091857174744353
+Iteration 270, Training loss = 0.22058892476817835
+Iteration 280, Training loss = 0.2189679488107778
+Iteration 290, Training loss = 0.21788945984869187
+Model training time: 101.12496852874756
+0.2546921066252523
+{'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0187416689983313
+Iteration 10, Training loss = 0.4787173068177873
+Iteration 20, Training loss = 0.36746538138907886
+Iteration 30, Training loss = 0.34154308583713383
+Iteration 40, Training loss = 0.32833340454504684
+Iteration 50, Training loss = 0.3190523120372192
+Iteration 60, Training loss = 0.31048108399778174
+Iteration 70, Training loss = 0.3038147208483323
+Iteration 80, Training loss = 0.29747860597959463
+Iteration 90, Training loss = 0.2924695345370666
+Iteration 100, Training loss = 0.2878739525730483
+Iteration 110, Training loss = 0.28420953157443357
+Iteration 120, Training loss = 0.28213611540299105
+Iteration 130, Training loss = 0.2787069986047952
+Iteration 140, Training loss = 0.2770119697431435
+Iteration 150, Training loss = 0.2751975856397463
+Iteration 160, Training loss = 0.2725364498902058
+Iteration 170, Training loss = 0.27039996761342755
+Iteration 180, Training loss = 0.26891811015669276
+Iteration 190, Training loss = 0.26727301832558453
+Iteration 200, Training loss = 0.2656260229971098
+Iteration 210, Training loss = 0.264466832369422
+Iteration 220, Training loss = 0.26266075224404173
+Iteration 230, Training loss = 0.2615635903273228
+Iteration 240, Training loss = 0.2604909205566282
+Iteration 250, Training loss = 0.25929107585390987
+Iteration 260, Training loss = 0.25879110370713154
+Iteration 270, Training loss = 0.2576201154270034
+Iteration 280, Training loss = 0.25679355654595554
+Iteration 290, Training loss = 0.2557563324985297
+Model training time: 90.53332543373108
+0.27282041892578585
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.8079600185155869
+Iteration 10, Training loss = 0.27035206026182723
+Iteration 20, Training loss = 0.25277199395574057
+Iteration 30, Training loss = 0.2453537377027365
+Iteration 40, Training loss = 0.2391783590786732
+Iteration 50, Training loss = 0.2344316105859784
+Iteration 60, Training loss = 0.228630695420389
+Iteration 70, Training loss = 0.224246459081769
+Iteration 80, Training loss = 0.21811981341586664
+Iteration 90, Training loss = 0.21522405263609612
+Model training time: 20.832147359848022
+0.25511095150587093
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.1699273506036172
+Iteration 10, Training loss = 0.9562282522137349
+Iteration 20, Training loss = 0.7469088985369756
+Iteration 30, Training loss = 0.47320861140122783
+Iteration 40, Training loss = 0.3881268916794887
+Iteration 50, Training loss = 0.3609824891273792
+Iteration 60, Training loss = 0.34415833852612054
+Iteration 70, Training loss = 0.3322455815684337
+Iteration 80, Training loss = 0.32491514545220596
+Iteration 90, Training loss = 0.31891194415780216
+Model training time: 18.654667615890503
+0.3004978112261095
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.8741519858057683
+Iteration 10, Training loss = 0.2889323690189765
+Iteration 20, Training loss = 0.2691365097864316
+Iteration 30, Training loss = 0.2616547957922404
+Iteration 40, Training loss = 0.2549703712933339
+Iteration 50, Training loss = 0.24943979105983788
+Iteration 60, Training loss = 0.24584625159891751
+Iteration 70, Training loss = 0.24185408701976904
+Iteration 80, Training loss = 0.23908253673177499
+Iteration 90, Training loss = 0.23614914242464763
+Model training time: 20.71024250984192
+0.26065131410641856
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.1024896548344538
+Iteration 10, Training loss = 0.7668442812103492
+Iteration 20, Training loss = 0.47321831778838086
+Iteration 30, Training loss = 0.4053086314636927
+Iteration 40, Training loss = 0.38035589929383534
+Iteration 50, Training loss = 0.3674378546957786
+Iteration 60, Training loss = 0.3559390422529899
+Iteration 70, Training loss = 0.34671484349438775
+Iteration 80, Training loss = 0.34278613844743144
+Iteration 90, Training loss = 0.33666097243817955
+Model training time: 19.224581718444824
+0.30696640723242286
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.8490439005769216
+Iteration 10, Training loss = 0.2804826092548095
+Iteration 20, Training loss = 0.26531951330029047
+Iteration 30, Training loss = 0.2572464630580865
+Iteration 40, Training loss = 0.2519271629504286
+Iteration 50, Training loss = 0.24694335790207753
+Iteration 60, Training loss = 0.2416987752255339
+Iteration 70, Training loss = 0.2387019066283336
+Iteration 80, Training loss = 0.23892851159549677
+Iteration 90, Training loss = 0.23419090546667576
+Iteration 100, Training loss = 0.23241570606254613
+Iteration 110, Training loss = 0.22773049076875815
+Iteration 120, Training loss = 0.22716670039181525
+Iteration 130, Training loss = 0.22671510508427253
+Iteration 140, Training loss = 0.22366329905791923
+Iteration 150, Training loss = 0.22199819781459296
+Iteration 160, Training loss = 0.2215545528496687
+Iteration 170, Training loss = 0.22028600460348222
+Iteration 180, Training loss = 0.21881680563092232
+Iteration 190, Training loss = 0.21693736056868845
+Model training time: 41.60242795944214
+0.25892171309744194
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0785933509469032
+Iteration 10, Training loss = 0.9559232529539329
+Iteration 20, Training loss = 0.7545940302885495
+Iteration 30, Training loss = 0.4522224495617243
+Iteration 40, Training loss = 0.38508884694713813
+Iteration 50, Training loss = 0.3663226148256889
+Iteration 60, Training loss = 0.3560917088045524
+Iteration 70, Training loss = 0.34905946469650817
+Iteration 80, Training loss = 0.34162273444235325
+Iteration 90, Training loss = 0.33592385655412305
+Iteration 100, Training loss = 0.3316573900385545
+Iteration 110, Training loss = 0.33327644819823593
+Iteration 120, Training loss = 0.32440408777732116
+Iteration 130, Training loss = 0.32197263535971826
+Iteration 140, Training loss = 0.32411657674954486
+Iteration 150, Training loss = 0.31712892493949485
+Iteration 160, Training loss = 0.314808316098956
+Iteration 170, Training loss = 0.31023138310187137
+Iteration 180, Training loss = 0.30817806692077565
+Iteration 190, Training loss = 0.30682987275605017
+Model training time: 37.69229602813721
+0.2934067203668451
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.8772584133996413
+Iteration 10, Training loss = 0.2824163164656896
+Iteration 20, Training loss = 0.26437731688985455
+Iteration 30, Training loss = 0.25707328441337896
+Iteration 40, Training loss = 0.2520771227203883
+Iteration 50, Training loss = 0.24757444657958472
+Iteration 60, Training loss = 0.24321104442844024
+Iteration 70, Training loss = 0.23970574455765578
+Iteration 80, Training loss = 0.2365940741908092
+Iteration 90, Training loss = 0.23402158027658096
+Iteration 100, Training loss = 0.23217606000029123
+Iteration 110, Training loss = 0.23033518372819975
+Iteration 120, Training loss = 0.2327478636915867
+Iteration 130, Training loss = 0.22705106293925872
+Iteration 140, Training loss = 0.22738800312464053
+Iteration 150, Training loss = 0.2257897395354051
+Iteration 160, Training loss = 0.22607555813514268
+Iteration 170, Training loss = 0.22970362938940525
+Iteration 180, Training loss = 0.22405334483258998
+Iteration 190, Training loss = 0.22644931479142263
+Model training time: 41.78787016868591
+0.25576838071354085
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9984516753600194
+Iteration 10, Training loss = 0.9374892362035238
+Iteration 20, Training loss = 0.7340469411932505
+Iteration 30, Training loss = 0.5281097596654525
+Iteration 40, Training loss = 0.4611227990916142
+Iteration 50, Training loss = 0.4252491998844422
+Iteration 60, Training loss = 0.3999517078583057
+Iteration 70, Training loss = 0.37973573932854027
+Iteration 80, Training loss = 0.3655097814133534
+Iteration 90, Training loss = 0.3559108493992916
+Iteration 100, Training loss = 0.34880426268164927
+Iteration 110, Training loss = 0.34207878906566364
+Iteration 120, Training loss = 0.3407191253052308
+Iteration 130, Training loss = 0.334217897687967
+Iteration 140, Training loss = 0.3317761176194136
+Iteration 150, Training loss = 0.3287338347962269
+Iteration 160, Training loss = 0.3249639564981827
+Iteration 170, Training loss = 0.3244430978710835
+Iteration 180, Training loss = 0.3184006318736535
+Iteration 190, Training loss = 0.31527332746638703
+Model training time: 38.21526122093201
+0.2984682036601495
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.9525099012714165
+Iteration 10, Training loss = 0.2682546663026397
+Iteration 20, Training loss = 0.25258907131277597
+Iteration 30, Training loss = 0.24439776588517886
+Iteration 40, Training loss = 0.23790889577223703
+Iteration 50, Training loss = 0.23504149440962535
+Iteration 60, Training loss = 0.23165729054464743
+Iteration 70, Training loss = 0.22807251332471004
+Iteration 80, Training loss = 0.22518686928714698
+Iteration 90, Training loss = 0.2241478800200499
+Iteration 100, Training loss = 0.22269602821996579
+Iteration 110, Training loss = 0.22022288865767992
+Iteration 120, Training loss = 0.21963719070817417
+Iteration 130, Training loss = 0.2176632875433335
+Iteration 140, Training loss = 0.21981038568684688
+Iteration 150, Training loss = 0.21413207211746618
+Iteration 160, Training loss = 0.21471732281721556
+Iteration 170, Training loss = 0.21289196402694172
+Iteration 180, Training loss = 0.2123105455763065
+Iteration 190, Training loss = 0.21229975799528453
+Iteration 200, Training loss = 0.21165407363038796
+Iteration 210, Training loss = 0.20924661222558755
+Iteration 220, Training loss = 0.20795923385482568
+Iteration 230, Training loss = 0.20720978203014687
+Iteration 240, Training loss = 0.205984215467022
+Iteration 250, Training loss = 0.2112930676398369
+Iteration 260, Training loss = 0.2065119676005382
+Iteration 270, Training loss = 0.20429653409295356
+Iteration 280, Training loss = 0.2047728140336963
+Iteration 290, Training loss = 0.20459938866014665
+Model training time: 62.55753302574158
+0.24738899600604985
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9970441128198917
+Iteration 10, Training loss = 0.7968126793320363
+Iteration 20, Training loss = 0.533368276575437
+Iteration 30, Training loss = 0.449471576569172
+Iteration 40, Training loss = 0.411346867107428
+Iteration 50, Training loss = 0.38066156652684396
+Iteration 60, Training loss = 0.36288991985985863
+Iteration 70, Training loss = 0.34915686685305375
+Iteration 80, Training loss = 0.3409201164658253
+Iteration 90, Training loss = 0.33447619097737163
+Iteration 100, Training loss = 0.3291448037354992
+Iteration 110, Training loss = 0.3262605217213814
+Iteration 120, Training loss = 0.32300657721666187
+Iteration 130, Training loss = 0.3217914206190751
+Iteration 140, Training loss = 0.31670401302667767
+Iteration 150, Training loss = 0.31475944415881085
+Iteration 160, Training loss = 0.3117289055998509
+Iteration 170, Training loss = 0.311803803134423
+Iteration 180, Training loss = 0.30693298363341737
+Iteration 190, Training loss = 0.30727203835088474
+Iteration 200, Training loss = 0.3023386844075643
+Iteration 210, Training loss = 0.30158649814816624
+Iteration 220, Training loss = 0.2995914901391818
+Iteration 230, Training loss = 0.2962019093907796
+Iteration 240, Training loss = 0.29493428265246063
+Iteration 250, Training loss = 0.2948142406172477
+Iteration 260, Training loss = 0.292694767507223
+Iteration 270, Training loss = 0.29075426851900726
+Iteration 280, Training loss = 0.2890657580529268
+Iteration 290, Training loss = 0.2874446124411546
+Model training time: 57.33754587173462
+0.28666075053745493
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.9808487754601699
+Iteration 10, Training loss = 0.2926381852191228
+Iteration 20, Training loss = 0.26016167637247306
+Iteration 30, Training loss = 0.24957357490291962
+Iteration 40, Training loss = 0.24370327642044196
+Iteration 50, Training loss = 0.24066214421047613
+Iteration 60, Training loss = 0.2403762933726494
+Iteration 70, Training loss = 0.2337571785140496
+Iteration 80, Training loss = 0.23369227894223654
+Iteration 90, Training loss = 0.23042084735173446
+Iteration 100, Training loss = 0.23031433342167965
+Iteration 110, Training loss = 0.22475032787770033
+Iteration 120, Training loss = 0.22471391309339267
+Iteration 130, Training loss = 0.2222473993181036
+Iteration 140, Training loss = 0.22246241612503162
+Iteration 150, Training loss = 0.2213729156467777
+Iteration 160, Training loss = 0.2203147805367525
+Iteration 170, Training loss = 0.22092731605068996
+Iteration 180, Training loss = 0.21811533740793282
+Iteration 190, Training loss = 0.2205440460059505
+Iteration 200, Training loss = 0.21711794974712226
+Iteration 210, Training loss = 0.21446380721261868
+Iteration 220, Training loss = 0.21395590113332638
+Iteration 230, Training loss = 0.21409049837921673
+Iteration 240, Training loss = 0.21174729887682658
+Iteration 250, Training loss = 0.21074025275615546
+Iteration 260, Training loss = 0.21227445102368409
+Iteration 270, Training loss = 0.21207579576338714
+Iteration 280, Training loss = 0.21040465123951435
+Iteration 290, Training loss = 0.2110392563045025
+Model training time: 62.8271427154541
+0.25143881773703153
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0164021482834449
+Iteration 10, Training loss = 0.9430079248089057
+Iteration 20, Training loss = 0.7293207014982517
+Iteration 30, Training loss = 0.47888899164704174
+Iteration 40, Training loss = 0.42057527200533795
+Iteration 50, Training loss = 0.3922668844461441
+Iteration 60, Training loss = 0.37415785213502556
+Iteration 70, Training loss = 0.3599066264354266
+Iteration 80, Training loss = 0.35031459036354834
+Iteration 90, Training loss = 0.34277901913111025
+Iteration 100, Training loss = 0.33687444117206794
+Iteration 110, Training loss = 0.3325215420470788
+Iteration 120, Training loss = 0.32893793442501473
+Iteration 130, Training loss = 0.327821121766017
+Iteration 140, Training loss = 0.3213960870813865
+Iteration 150, Training loss = 0.31679968765148747
+Iteration 160, Training loss = 0.31445442913816524
+Iteration 170, Training loss = 0.3118865101669843
+Iteration 180, Training loss = 0.3084229316848975
+Iteration 190, Training loss = 0.3079226795010842
+Iteration 200, Training loss = 0.306905853920258
+Iteration 210, Training loss = 0.302219948803003
+Iteration 220, Training loss = 0.300381725654006
+Iteration 230, Training loss = 0.2979507354589609
+Iteration 240, Training loss = 0.29628173992610896
+Iteration 250, Training loss = 0.294803598179267
+Iteration 260, Training loss = 0.2924691130622075
+Iteration 270, Training loss = 0.2922579873926364
+Iteration 280, Training loss = 0.2896098769628085
+Iteration 290, Training loss = 0.28898063029807347
+Model training time: 56.55547094345093
+0.2852075355339411
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.7562908386954894
+Iteration 10, Training loss = 0.2861152249746598
+Iteration 20, Training loss = 0.24851026414678648
+Iteration 30, Training loss = 0.2373611990075845
+Iteration 40, Training loss = 0.2348144376793733
+Iteration 50, Training loss = 0.2318828608840704
+Iteration 60, Training loss = 0.22754516474042946
+Iteration 70, Training loss = 0.2249557189643383
+Iteration 80, Training loss = 0.2230299970564934
+Iteration 90, Training loss = 0.21930813338034427
+Model training time: 20.60553479194641
+0.25828940501131875
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0404052591094604
+Iteration 10, Training loss = 0.5851306840777397
+Iteration 20, Training loss = 0.3761766336571712
+Iteration 30, Training loss = 0.3503344322626407
+Iteration 40, Training loss = 0.32913151354743886
+Iteration 50, Training loss = 0.3196511331659097
+Iteration 60, Training loss = 0.3168730497933351
+Iteration 70, Training loss = 0.30958277302292675
+Iteration 80, Training loss = 0.3036448716257627
+Iteration 90, Training loss = 0.2994788284771718
+Model training time: 18.738362312316895
+0.2898124454930663
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.7202450260519981
+Iteration 10, Training loss = 0.2864093241783289
+Iteration 20, Training loss = 0.2692913401585359
+Iteration 30, Training loss = 0.2583391100454789
+Iteration 40, Training loss = 0.25128713894922
+Iteration 50, Training loss = 0.24688764317677572
+Iteration 60, Training loss = 0.24119216003097022
+Iteration 70, Training loss = 0.23984379378648904
+Iteration 80, Training loss = 0.23803739113589892
+Iteration 90, Training loss = 0.2401562500028656
+Model training time: 20.96839952468872
+0.2623000799287539
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.100111110852315
+Iteration 10, Training loss = 0.8947644222241181
+Iteration 20, Training loss = 0.5492453506359687
+Iteration 30, Training loss = 0.45529750963816273
+Iteration 40, Training loss = 0.41134587575036746
+Iteration 50, Training loss = 0.38315905487308133
+Iteration 60, Training loss = 0.3610195620701863
+Iteration 70, Training loss = 0.34578085561784416
+Iteration 80, Training loss = 0.3334843408889495
+Iteration 90, Training loss = 0.3245046529918909
+Model training time: 18.94010329246521
+0.3024731955474851
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.7074377261675321
+Iteration 10, Training loss = 0.26158386999024796
+Iteration 20, Training loss = 0.2452572244577683
+Iteration 30, Training loss = 0.2347765094242417
+Iteration 40, Training loss = 0.22580073186411306
+Iteration 50, Training loss = 0.2251262987175813
+Iteration 60, Training loss = 0.22196713806344912
+Iteration 70, Training loss = 0.21909975418104574
+Iteration 80, Training loss = 0.21689550700382546
+Iteration 90, Training loss = 0.21501063942336118
+Iteration 100, Training loss = 0.21444338402495935
+Iteration 110, Training loss = 0.21276141946705487
+Iteration 120, Training loss = 0.21061751855394015
+Iteration 130, Training loss = 0.2122709654414883
+Iteration 140, Training loss = 0.20812078157009986
+Iteration 150, Training loss = 0.20787125130972037
+Iteration 160, Training loss = 0.20471347581881744
+Iteration 170, Training loss = 0.20493061489497238
+Iteration 180, Training loss = 0.2047815597974337
+Iteration 190, Training loss = 0.20258262287825346
+Model training time: 42.726712465286255
+0.2514547904305273
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0690750622978578
+Iteration 10, Training loss = 0.9219532459974289
+Iteration 20, Training loss = 0.6401884796527716
+Iteration 30, Training loss = 0.4455972012992089
+Iteration 40, Training loss = 0.35687621768850547
+Iteration 50, Training loss = 0.32002363783808857
+Iteration 60, Training loss = 0.3055897534180146
+Iteration 70, Training loss = 0.29805484786629677
+Iteration 80, Training loss = 0.2925503054777017
+Iteration 90, Training loss = 0.28880879712792545
+Iteration 100, Training loss = 0.286353700579359
+Iteration 110, Training loss = 0.2823455183265301
+Iteration 120, Training loss = 0.2792331079164377
+Iteration 130, Training loss = 0.2766225582991655
+Iteration 140, Training loss = 0.276111563667655
+Iteration 150, Training loss = 0.2722842540018834
+Iteration 160, Training loss = 0.27318256950149167
+Iteration 170, Training loss = 0.26840704392928344
+Iteration 180, Training loss = 0.2672274000942707
+Iteration 190, Training loss = 0.26596728526055813
+Model training time: 37.7993540763855
+0.277513580016293
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.8938037735911516
+Iteration 10, Training loss = 0.31436896238189477
+Iteration 20, Training loss = 0.26184470335451454
+Iteration 30, Training loss = 0.2504591951146722
+Iteration 40, Training loss = 0.24699428176077512
+Iteration 50, Training loss = 0.24348435665552431
+Iteration 60, Training loss = 0.23990478151692793
+Iteration 70, Training loss = 0.2373719232586714
+Iteration 80, Training loss = 0.23611542152670714
+Iteration 90, Training loss = 0.23584750746018612
+Iteration 100, Training loss = 0.23352095842934573
+Iteration 110, Training loss = 0.23352490078944427
+Iteration 120, Training loss = 0.23168542579962656
+Iteration 130, Training loss = 0.2323869949636551
+Iteration 140, Training loss = 0.23026573858582056
+Iteration 150, Training loss = 0.23107640617168868
+Iteration 160, Training loss = 0.22900321012219557
+Iteration 170, Training loss = 0.22936962451785803
+Iteration 180, Training loss = 0.2285956395789981
+Iteration 190, Training loss = 0.22990813851356506
+Model training time: 41.59476685523987
+0.2569669223016913
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.060913459612773
+Iteration 10, Training loss = 0.49220080129229105
+Iteration 20, Training loss = 0.3730631767270657
+Iteration 30, Training loss = 0.3472197693414413
+Iteration 40, Training loss = 0.33198229051553285
+Iteration 50, Training loss = 0.32141953663757217
+Iteration 60, Training loss = 0.315294885291503
+Iteration 70, Training loss = 0.30889758453346217
+Iteration 80, Training loss = 0.3032275177538395
+Iteration 90, Training loss = 0.29817012711786306
+Iteration 100, Training loss = 0.29417560880000776
+Iteration 110, Training loss = 0.289995762734459
+Iteration 120, Training loss = 0.286568994132372
+Iteration 130, Training loss = 0.28278214312516725
+Iteration 140, Training loss = 0.2790282816411211
+Iteration 150, Training loss = 0.2776540784308544
+Iteration 160, Training loss = 0.27347334947150487
+Iteration 170, Training loss = 0.2726703512553985
+Iteration 180, Training loss = 0.2710901028834857
+Iteration 190, Training loss = 0.2672703926666425
+Model training time: 38.39807724952698
+0.2771307906127211
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6538010388612747
+Iteration 10, Training loss = 0.26311830875392145
+Iteration 20, Training loss = 0.24974098429083824
+Iteration 30, Training loss = 0.24131695861713245
+Iteration 40, Training loss = 0.23448842133467013
+Iteration 50, Training loss = 0.22904236141878825
+Iteration 60, Training loss = 0.22912296215788677
+Iteration 70, Training loss = 0.22568785055325583
+Iteration 80, Training loss = 0.222008344072562
+Iteration 90, Training loss = 0.21932992410774416
+Iteration 100, Training loss = 0.2182551875997048
+Iteration 110, Training loss = 0.2183876076999765
+Iteration 120, Training loss = 0.21487642323168424
+Iteration 130, Training loss = 0.21586386759120685
+Iteration 140, Training loss = 0.21607587665606004
+Iteration 150, Training loss = 0.2126915239227506
+Iteration 160, Training loss = 0.210395308999488
+Iteration 170, Training loss = 0.21143062283786443
+Iteration 180, Training loss = 0.20952548695584902
+Iteration 190, Training loss = 0.20741743959773046
+Iteration 200, Training loss = 0.2078920751093672
+Iteration 210, Training loss = 0.2070836779446556
+Iteration 220, Training loss = 0.20707582553418782
+Iteration 230, Training loss = 0.20350497409414786
+Iteration 240, Training loss = 0.20583226008770558
+Iteration 250, Training loss = 0.20285428430025393
+Iteration 260, Training loss = 0.20127346373807925
+Iteration 270, Training loss = 0.20064052355547363
+Iteration 280, Training loss = 0.20152353968184727
+Iteration 290, Training loss = 0.20106522996838277
+Model training time: 64.90611124038696
+0.250241734699769
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.047511791380552
+Iteration 10, Training loss = 0.6376466498925135
+Iteration 20, Training loss = 0.3780459831826962
+Iteration 30, Training loss = 0.3512080877732772
+Iteration 40, Training loss = 0.34041753654869705
+Iteration 50, Training loss = 0.328978992282198
+Iteration 60, Training loss = 0.3210047176824166
+Iteration 70, Training loss = 0.31415412560678446
+Iteration 80, Training loss = 0.3087075620603103
+Iteration 90, Training loss = 0.3037417023800887
+Iteration 100, Training loss = 0.2986587876310715
+Iteration 110, Training loss = 0.2962531319891031
+Iteration 120, Training loss = 0.29591656232682556
+Iteration 130, Training loss = 0.28602459296011007
+Iteration 140, Training loss = 0.2833306077294625
+Iteration 150, Training loss = 0.2797335278815948
+Iteration 160, Training loss = 0.27738593977231246
+Iteration 170, Training loss = 0.275124155701353
+Iteration 180, Training loss = 0.2731666983320163
+Iteration 190, Training loss = 0.2714746240526438
+Iteration 200, Training loss = 0.27160708505946857
+Iteration 210, Training loss = 0.26842590421438217
+Iteration 220, Training loss = 0.2673178461308663
+Iteration 230, Training loss = 0.26648517096271884
+Iteration 240, Training loss = 0.2653273523140412
+Iteration 250, Training loss = 0.2644801917844094
+Iteration 260, Training loss = 0.26380205899477005
+Iteration 270, Training loss = 0.2624128254560324
+Iteration 280, Training loss = 0.26114142385239786
+Iteration 290, Training loss = 0.26201950887647957
+Model training time: 57.69012975692749
+0.2742034372358142
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.7802714736988912
+Iteration 10, Training loss = 0.26797879874133146
+Iteration 20, Training loss = 0.2546773442568687
+Iteration 30, Training loss = 0.25139454064460903
+Iteration 40, Training loss = 0.2450703809467646
+Iteration 50, Training loss = 0.2403962371441034
+Iteration 60, Training loss = 0.2371914475583113
+Iteration 70, Training loss = 0.23549350594671872
+Iteration 80, Training loss = 0.23325436576627767
+Iteration 90, Training loss = 0.23207413147275263
+Iteration 100, Training loss = 0.2293949003976125
+Iteration 110, Training loss = 0.22658767164326632
+Iteration 120, Training loss = 0.22852370802026528
+Iteration 130, Training loss = 0.22556900820479944
+Iteration 140, Training loss = 0.22568687710624474
+Iteration 150, Training loss = 0.22266622346181136
+Iteration 160, Training loss = 0.22446528908151847
+Iteration 170, Training loss = 0.22183421540718812
+Iteration 180, Training loss = 0.22079119444466555
+Iteration 190, Training loss = 0.22067900403187826
+Iteration 200, Training loss = 0.21999617307805097
+Iteration 210, Training loss = 0.22328650385427934
+Iteration 220, Training loss = 0.22060630585138613
+Iteration 230, Training loss = 0.22001594484138948
+Iteration 240, Training loss = 0.2193630291865422
+Iteration 250, Training loss = 0.21923242452052924
+Iteration 260, Training loss = 0.22022703691170767
+Iteration 270, Training loss = 0.21910695803280061
+Iteration 280, Training loss = 0.2186621929733799
+Iteration 290, Training loss = 0.218378572151638
+Model training time: 62.908817529678345
+0.2592369835956746
+{'activation_functions': ['relu', 'relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0761576736202607
+Iteration 10, Training loss = 0.8184134868475107
+Iteration 20, Training loss = 0.43216078413220554
+Iteration 30, Training loss = 0.3780292741094644
+Iteration 40, Training loss = 0.3509961939775027
+Iteration 50, Training loss = 0.34150604774745613
+Iteration 60, Training loss = 0.3351177904181756
+Iteration 70, Training loss = 0.3308679823978589
+Iteration 80, Training loss = 0.3259082538290666
+Iteration 90, Training loss = 0.3219723135519486
+Iteration 100, Training loss = 0.3175569398758503
+Iteration 110, Training loss = 0.3145467279335627
+Iteration 120, Training loss = 0.3102523922347106
+Iteration 130, Training loss = 0.30556483710041416
+Iteration 140, Training loss = 0.30325117965157217
+Iteration 150, Training loss = 0.2999423131919824
+Iteration 160, Training loss = 0.2965389395562502
+Iteration 170, Training loss = 0.29387758743877596
+Iteration 180, Training loss = 0.2927611882870014
+Iteration 190, Training loss = 0.28956289489108783
+Iteration 200, Training loss = 0.2879905008639281
+Iteration 210, Training loss = 0.2864372917952446
+Iteration 220, Training loss = 0.28296756601104367
+Iteration 230, Training loss = 0.2850259645627095
+Iteration 240, Training loss = 0.2787538763995354
+Iteration 250, Training loss = 0.27816590652442896
+Iteration 260, Training loss = 0.2764395789171641
+Iteration 270, Training loss = 0.27569357277109074
+Iteration 280, Training loss = 0.2736361314757512
+Iteration 290, Training loss = 0.2712723406461569
+Model training time: 56.8093421459198
+0.27982552259170274
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6231622129101442
+Iteration 10, Training loss = 0.2910832132395474
+Iteration 20, Training loss = 0.27481843944251105
+Iteration 30, Training loss = 0.26932549399050904
+Iteration 40, Training loss = 0.2668547388030888
+Iteration 50, Training loss = 0.26427309519947295
+Iteration 60, Training loss = 0.2600349699289112
+Iteration 70, Training loss = 0.25711889292584783
+Iteration 80, Training loss = 0.2546435205793554
+Iteration 90, Training loss = 0.25249345272274343
+Model training time: 50.86541247367859
+0.2701093094556161
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.095932079934612
+Iteration 10, Training loss = 0.38445338013313585
+Iteration 20, Training loss = 0.3387235084111119
+Iteration 30, Training loss = 0.32655756942224273
+Iteration 40, Training loss = 0.3200194672579915
+Iteration 50, Training loss = 0.31455161424295086
+Iteration 60, Training loss = 0.3100155077640139
+Iteration 70, Training loss = 0.30622057788092055
+Iteration 80, Training loss = 0.3029321833506912
+Iteration 90, Training loss = 0.29975801868675406
+Model training time: 43.37562870979309
+0.292710836356295
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.5716588722483298
+Iteration 10, Training loss = 0.28796675691232265
+Iteration 20, Training loss = 0.2720732139581341
+Iteration 30, Training loss = 0.26629837779170373
+Iteration 40, Training loss = 0.26382896255422156
+Iteration 50, Training loss = 0.26205521048053415
+Iteration 60, Training loss = 0.2592364598345237
+Iteration 70, Training loss = 0.25706543537086785
+Iteration 80, Training loss = 0.25664755879714185
+Iteration 90, Training loss = 0.25568592607902846
+Iteration 100, Training loss = 0.25450204442690416
+Iteration 110, Training loss = 0.2544355857711439
+Iteration 120, Training loss = 0.2535788600691583
+Iteration 130, Training loss = 0.2534986146912881
+Iteration 140, Training loss = 0.2530266193190441
+Iteration 150, Training loss = 0.25313334639655477
+Iteration 160, Training loss = 0.2522679571847073
+Iteration 170, Training loss = 0.2522596580497289
+Iteration 180, Training loss = 0.2516865293714094
+Iteration 190, Training loss = 0.25233699549124833
+Model training time: 104.72722578048706
+0.2715190570715557
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0069015787386721
+Iteration 10, Training loss = 0.3716419399434083
+Iteration 20, Training loss = 0.3422263346558333
+Iteration 30, Training loss = 0.3306418569086539
+Iteration 40, Training loss = 0.32309256975717177
+Iteration 50, Training loss = 0.3166609295163547
+Iteration 60, Training loss = 0.311396903495956
+Iteration 70, Training loss = 0.3068514444096325
+Iteration 80, Training loss = 0.3028608433198698
+Iteration 90, Training loss = 0.298940150288202
+Iteration 100, Training loss = 0.29530739576779036
+Iteration 110, Training loss = 0.29210260979488456
+Iteration 120, Training loss = 0.28926007142944427
+Iteration 130, Training loss = 0.286716830210882
+Iteration 140, Training loss = 0.28477819011373035
+Iteration 150, Training loss = 0.28257972575706086
+Iteration 160, Training loss = 0.2809622436401053
+Iteration 170, Training loss = 0.27937342094812206
+Iteration 180, Training loss = 0.2780519034037001
+Iteration 190, Training loss = 0.2766627090245702
+Model training time: 97.43090319633484
+0.282661862280333
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.8128599423112361
+Iteration 10, Training loss = 0.30513881581675345
+Iteration 20, Training loss = 0.2899355497977924
+Iteration 30, Training loss = 0.28079779474989264
+Iteration 40, Training loss = 0.274420926721708
+Iteration 50, Training loss = 0.271143148871946
+Iteration 60, Training loss = 0.2679515189556608
+Iteration 70, Training loss = 0.26496076749831654
+Iteration 80, Training loss = 0.26292404922099727
+Iteration 90, Training loss = 0.26180980962500444
+Iteration 100, Training loss = 0.26131078552175085
+Iteration 110, Training loss = 0.26043385187881046
+Iteration 120, Training loss = 0.25907854488701276
+Iteration 130, Training loss = 0.25897998189594207
+Iteration 140, Training loss = 0.2587184283169794
+Iteration 150, Training loss = 0.2578963539213592
+Iteration 160, Training loss = 0.25833487820971673
+Iteration 170, Training loss = 0.25766565896047516
+Iteration 180, Training loss = 0.2577475768493682
+Iteration 190, Training loss = 0.25713044556520753
+Iteration 200, Training loss = 0.25740605192236404
+Iteration 210, Training loss = 0.25761228007857506
+Iteration 220, Training loss = 0.25761217782702345
+Iteration 230, Training loss = 0.2571337524684232
+Iteration 240, Training loss = 0.256926608657505
+Iteration 250, Training loss = 0.2571431396226906
+Iteration 260, Training loss = 0.2564520013245774
+Iteration 270, Training loss = 0.2565006639167991
+Iteration 280, Training loss = 0.2568457984065605
+Iteration 290, Training loss = 0.2563632153173047
+Model training time: 151.37156534194946
+0.27619964654783224
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9897973586514267
+Iteration 10, Training loss = 0.36969416781574416
+Iteration 20, Training loss = 0.345634534125178
+Iteration 30, Training loss = 0.3350357186707688
+Iteration 40, Training loss = 0.32658668627317533
+Iteration 50, Training loss = 0.3189150983823991
+Iteration 60, Training loss = 0.31289209643735144
+Iteration 70, Training loss = 0.3075282785671675
+Iteration 80, Training loss = 0.3028525434813257
+Iteration 90, Training loss = 0.2983082414539328
+Iteration 100, Training loss = 0.29455501054014477
+Iteration 110, Training loss = 0.29077438200140693
+Iteration 120, Training loss = 0.287446235060764
+Iteration 130, Training loss = 0.28465675780905936
+Iteration 140, Training loss = 0.2826982865754975
+Iteration 150, Training loss = 0.2808888929808111
+Iteration 160, Training loss = 0.27951585225418174
+Iteration 170, Training loss = 0.2781847590900795
+Iteration 180, Training loss = 0.27697227821295256
+Iteration 190, Training loss = 0.27596873320981896
+Iteration 200, Training loss = 0.2747212295706855
+Iteration 210, Training loss = 0.27385850580855664
+Iteration 220, Training loss = 0.2729277144441016
+Iteration 230, Training loss = 0.27220028813829145
+Iteration 240, Training loss = 0.2714167662127255
+Iteration 250, Training loss = 0.2708370285266537
+Iteration 260, Training loss = 0.2702587938734463
+Iteration 270, Training loss = 0.26992076507275675
+Iteration 280, Training loss = 0.269349502178572
+Iteration 290, Training loss = 0.2688636722958694
+Model training time: 129.0840983390808
+0.28023263925992464
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.44177759187995086
+Iteration 10, Training loss = 0.27784051154413175
+Iteration 20, Training loss = 0.27102816397139295
+Iteration 30, Training loss = 0.2680391055457384
+Iteration 40, Training loss = 0.2638806049817988
+Iteration 50, Training loss = 0.26274730705320115
+Iteration 60, Training loss = 0.25833747653204936
+Iteration 70, Training loss = 0.2553047689521284
+Iteration 80, Training loss = 0.25304766232035064
+Iteration 90, Training loss = 0.25241845579181976
+Model training time: 49.3995156288147
+0.2695360773151021
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0125430644135787
+Iteration 10, Training loss = 0.34233966985712905
+Iteration 20, Training loss = 0.32728406009388317
+Iteration 30, Training loss = 0.3199911101137177
+Iteration 40, Training loss = 0.31413505551096316
+Iteration 50, Training loss = 0.3090376160660033
+Iteration 60, Training loss = 0.30262991378295795
+Iteration 70, Training loss = 0.29625467501454433
+Iteration 80, Training loss = 0.29027292446276176
+Iteration 90, Training loss = 0.28570640585035734
+Model training time: 43.52499794960022
+0.28478048029713265
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.5824344291669693
+Iteration 10, Training loss = 0.2883140302599198
+Iteration 20, Training loss = 0.27923786329876715
+Iteration 30, Training loss = 0.27596557993649284
+Iteration 40, Training loss = 0.27315660537227304
+Iteration 50, Training loss = 0.27146526196967025
+Iteration 60, Training loss = 0.2700184420581014
+Iteration 70, Training loss = 0.27065493788831746
+Iteration 80, Training loss = 0.2694672659833264
+Iteration 90, Training loss = 0.26907978217697026
+Iteration 100, Training loss = 0.26898504616850516
+Iteration 110, Training loss = 0.26850984371819736
+Iteration 120, Training loss = 0.26937775856862634
+Iteration 130, Training loss = 0.2684654334591607
+Iteration 140, Training loss = 0.26797044210442617
+Iteration 150, Training loss = 0.26798141888426236
+Iteration 160, Training loss = 0.2673401412605951
+Iteration 170, Training loss = 0.26753961280457333
+Iteration 180, Training loss = 0.267238379354627
+Iteration 190, Training loss = 0.26670315114839893
+Model training time: 101.53256726264954
+0.27908838559244764
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9416651204048
+Iteration 10, Training loss = 0.34608898299225305
+Iteration 20, Training loss = 0.32171088799870334
+Iteration 30, Training loss = 0.3073472653585542
+Iteration 40, Training loss = 0.2977460472693455
+Iteration 50, Training loss = 0.29158970277043866
+Iteration 60, Training loss = 0.28699395489894736
+Iteration 70, Training loss = 0.28387002569350434
+Iteration 80, Training loss = 0.2819342635770398
+Iteration 90, Training loss = 0.28015620784594997
+Iteration 100, Training loss = 0.278590640662008
+Iteration 110, Training loss = 0.2772994224009156
+Iteration 120, Training loss = 0.2753521571833343
+Iteration 130, Training loss = 0.27342865789268556
+Iteration 140, Training loss = 0.272225341626576
+Iteration 150, Training loss = 0.271083626652601
+Iteration 160, Training loss = 0.27000873220168936
+Iteration 170, Training loss = 0.2695268043305626
+Iteration 180, Training loss = 0.26888894612650605
+Iteration 190, Training loss = 0.2684900085227541
+Model training time: 86.71433854103088
+0.28190392851694834
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.5006085426228676
+Iteration 10, Training loss = 0.29287651751289645
+Iteration 20, Training loss = 0.2859822688105609
+Iteration 30, Training loss = 0.28160747844211703
+Iteration 40, Training loss = 0.27930757058806915
+Iteration 50, Training loss = 0.27725065048540476
+Iteration 60, Training loss = 0.2764521136013994
+Iteration 70, Training loss = 0.2744748413598855
+Iteration 80, Training loss = 0.27339857854580474
+Iteration 90, Training loss = 0.2717726582765002
+Iteration 100, Training loss = 0.2714517706098626
+Iteration 110, Training loss = 0.27035550520581714
+Iteration 120, Training loss = 0.2697368463181122
+Iteration 130, Training loss = 0.27073288892934744
+Iteration 140, Training loss = 0.2695235737552077
+Iteration 150, Training loss = 0.2689037969376504
+Iteration 160, Training loss = 0.26736307521204106
+Iteration 170, Training loss = 0.26706727209882064
+Iteration 180, Training loss = 0.26579712913991754
+Iteration 190, Training loss = 0.26611336358522963
+Iteration 200, Training loss = 0.2661061949540859
+Iteration 210, Training loss = 0.26570174969353916
+Iteration 220, Training loss = 0.2657932467921017
+Iteration 230, Training loss = 0.26547244608799137
+Iteration 240, Training loss = 0.2654197277731237
+Iteration 250, Training loss = 0.26550542261929544
+Iteration 260, Training loss = 0.2654865276762995
+Iteration 270, Training loss = 0.26522292351895904
+Iteration 280, Training loss = 0.26497404819431086
+Iteration 290, Training loss = 0.26534979601027603
+Model training time: 151.07206773757935
+0.2834828619704848
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.8249417259820149
+Iteration 10, Training loss = 0.3397485147304743
+Iteration 20, Training loss = 0.32083538421779223
+Iteration 30, Training loss = 0.309356485473186
+Iteration 40, Training loss = 0.30045479480132065
+Iteration 50, Training loss = 0.2940743304518464
+Iteration 60, Training loss = 0.289674507251086
+Iteration 70, Training loss = 0.285948684804376
+Iteration 80, Training loss = 0.28235759421930473
+Iteration 90, Training loss = 0.2799743162265124
+Iteration 100, Training loss = 0.2778564334348674
+Iteration 110, Training loss = 0.27597193336948644
+Iteration 120, Training loss = 0.2742086503717859
+Iteration 130, Training loss = 0.2727706710701993
+Iteration 140, Training loss = 0.27176004902574685
+Iteration 150, Training loss = 0.2702521450330501
+Iteration 160, Training loss = 0.2687103174825269
+Iteration 170, Training loss = 0.2674973040783088
+Iteration 180, Training loss = 0.2662738289945639
+Iteration 190, Training loss = 0.26569404487315446
+Iteration 200, Training loss = 0.265019792549258
+Iteration 210, Training loss = 0.26466494690419395
+Iteration 220, Training loss = 0.2641783705743404
+Iteration 230, Training loss = 0.2637450378433267
+Iteration 240, Training loss = 0.2631788809781502
+Iteration 250, Training loss = 0.26266829137291225
+Iteration 260, Training loss = 0.2622819974044333
+Iteration 270, Training loss = 0.26196210387616126
+Iteration 280, Training loss = 0.2617897158601382
+Iteration 290, Training loss = 0.26157009475311993
+Model training time: 133.784925699234
+0.2756380811879771
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 32, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.824124942223231
+Iteration 10, Training loss = 0.2924875318284196
+Iteration 20, Training loss = 0.2834276150606105
+Iteration 30, Training loss = 0.27712290204953455
+Iteration 40, Training loss = 0.26972821081318143
+Iteration 50, Training loss = 0.2645224042344784
+Iteration 60, Training loss = 0.26197484869887866
+Iteration 70, Training loss = 0.25975760576373713
+Iteration 80, Training loss = 0.2590756346134172
+Iteration 90, Training loss = 0.25762285425323217
+Model training time: 28.852941751480103
+0.2733303394746128
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9781447366815834
+Iteration 10, Training loss = 0.3861854066307418
+Iteration 20, Training loss = 0.3408254773000588
+Iteration 30, Training loss = 0.32703925726782296
+Iteration 40, Training loss = 0.320354261835992
+Iteration 50, Training loss = 0.31563247898638536
+Iteration 60, Training loss = 0.31223086782411674
+Iteration 70, Training loss = 0.3093995324511459
+Iteration 80, Training loss = 0.30627580894076306
+Iteration 90, Training loss = 0.30412111982055334
+Model training time: 25.57245659828186
+0.29327791126184355
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.7339299054825363
+Iteration 10, Training loss = 0.29430516035372506
+Iteration 20, Training loss = 0.27744344258366
+Iteration 30, Training loss = 0.2720018952077138
+Iteration 40, Training loss = 0.2689358988677822
+Iteration 50, Training loss = 0.26646428594842625
+Iteration 60, Training loss = 0.26488888767606394
+Iteration 70, Training loss = 0.2631173127371332
+Iteration 80, Training loss = 0.26207890973430903
+Iteration 90, Training loss = 0.2618642402947813
+Iteration 100, Training loss = 0.2597351294136854
+Iteration 110, Training loss = 0.26063468080499896
+Iteration 120, Training loss = 0.25876166124418737
+Iteration 130, Training loss = 0.25816287989345726
+Iteration 140, Training loss = 0.25783585479869936
+Iteration 150, Training loss = 0.2571145802520324
+Iteration 160, Training loss = 0.25687490918354133
+Iteration 170, Training loss = 0.2562468537817831
+Iteration 180, Training loss = 0.2568369311986914
+Iteration 190, Training loss = 0.2554433140633763
+Model training time: 57.032769441604614
+0.2731775480806159
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9598333979574378
+Iteration 10, Training loss = 0.4229927151531413
+Iteration 20, Training loss = 0.3655897876346745
+Iteration 30, Training loss = 0.34789549253413066
+Iteration 40, Training loss = 0.33726934757497573
+Iteration 50, Training loss = 0.3307670432588328
+Iteration 60, Training loss = 0.3263109101765398
+Iteration 70, Training loss = 0.32074330747127533
+Iteration 80, Training loss = 0.31735002159496434
+Iteration 90, Training loss = 0.3141215100236561
+Iteration 100, Training loss = 0.3120840844036876
+Iteration 110, Training loss = 0.30890951993096855
+Iteration 120, Training loss = 0.3060069619745448
+Iteration 130, Training loss = 0.30369734288989636
+Iteration 140, Training loss = 0.3015192369188088
+Iteration 150, Training loss = 0.29908569409075564
+Iteration 160, Training loss = 0.29763873756507747
+Iteration 170, Training loss = 0.2954776079038491
+Iteration 180, Training loss = 0.29408577782808293
+Iteration 190, Training loss = 0.2923009060143273
+Model training time: 50.94024467468262
+0.28955123247226344
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6523364606686837
+Iteration 10, Training loss = 0.2904146083311182
+Iteration 20, Training loss = 0.2776913660879872
+Iteration 30, Training loss = 0.27318028198636096
+Iteration 40, Training loss = 0.27154071477876196
+Iteration 50, Training loss = 0.269064221477163
+Iteration 60, Training loss = 0.26814491215391434
+Iteration 70, Training loss = 0.2673991139672229
+Iteration 80, Training loss = 0.2652668027558189
+Iteration 90, Training loss = 0.2645188734151315
+Iteration 100, Training loss = 0.2635485998170387
+Iteration 110, Training loss = 0.2622604537125371
+Iteration 120, Training loss = 0.2610173113104226
+Iteration 130, Training loss = 0.2601606396301357
+Iteration 140, Training loss = 0.25919875355014477
+Iteration 150, Training loss = 0.25583525865838147
+Iteration 160, Training loss = 0.25498907588386305
+Iteration 170, Training loss = 0.25503228500413433
+Iteration 180, Training loss = 0.2536878049157668
+Iteration 190, Training loss = 0.25209928498319956
+Iteration 200, Training loss = 0.2520206600499614
+Iteration 210, Training loss = 0.25140442368057037
+Iteration 220, Training loss = 0.25120042070098547
+Iteration 230, Training loss = 0.25125708258238394
+Iteration 240, Training loss = 0.2498436769209622
+Iteration 250, Training loss = 0.2512835883287992
+Iteration 260, Training loss = 0.2501216452334814
+Iteration 270, Training loss = 0.25012713296401906
+Iteration 280, Training loss = 0.2500661963569945
+Iteration 290, Training loss = 0.24974760625529405
+Model training time: 88.86251401901245
+0.2726118537085628
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0611094386105375
+Iteration 10, Training loss = 0.43334988637822835
+Iteration 20, Training loss = 0.37773698525152344
+Iteration 30, Training loss = 0.3493725575398708
+Iteration 40, Training loss = 0.33720897303687203
+Iteration 50, Training loss = 0.3292985479324912
+Iteration 60, Training loss = 0.32382115620921775
+Iteration 70, Training loss = 0.32041451072203364
+Iteration 80, Training loss = 0.31688891761544824
+Iteration 90, Training loss = 0.31369836837197274
+Iteration 100, Training loss = 0.31129077472836497
+Iteration 110, Training loss = 0.3095733943048883
+Iteration 120, Training loss = 0.30798781278052767
+Iteration 130, Training loss = 0.3070858176347714
+Iteration 140, Training loss = 0.3047021825388434
+Iteration 150, Training loss = 0.3039524948611352
+Iteration 160, Training loss = 0.30243957280248834
+Iteration 170, Training loss = 0.30140026334835135
+Iteration 180, Training loss = 0.30084722535909664
+Iteration 190, Training loss = 0.29992055371043763
+Iteration 200, Training loss = 0.2983168901308723
+Iteration 210, Training loss = 0.2980801064323112
+Iteration 220, Training loss = 0.2969130479915131
+Iteration 230, Training loss = 0.2969474180597038
+Iteration 240, Training loss = 0.2949804948723834
+Iteration 250, Training loss = 0.29441182041801695
+Iteration 260, Training loss = 0.2931824705163062
+Iteration 270, Training loss = 0.2929095989408124
+Iteration 280, Training loss = 0.292426616601322
+Iteration 290, Training loss = 0.29178809475351647
+Model training time: 76.10508728027344
+0.2865277659355775
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6889590180438497
+Iteration 10, Training loss = 0.2863022559074964
+Iteration 20, Training loss = 0.2728132153478798
+Iteration 30, Training loss = 0.26999806346380767
+Iteration 40, Training loss = 0.2688476594461911
+Iteration 50, Training loss = 0.26805636481098505
+Iteration 60, Training loss = 0.2648822153032114
+Iteration 70, Training loss = 0.2637615730797035
+Iteration 80, Training loss = 0.26229969955584853
+Iteration 90, Training loss = 0.2591848551939075
+Model training time: 29.15342617034912
+0.2733947745434572
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0061155954996746
+Iteration 10, Training loss = 0.40121699437715
+Iteration 20, Training loss = 0.35117947292212703
+Iteration 30, Training loss = 0.3362104087924036
+Iteration 40, Training loss = 0.3280709084249349
+Iteration 50, Training loss = 0.32091608542751
+Iteration 60, Training loss = 0.3159399243512591
+Iteration 70, Training loss = 0.311546111020489
+Iteration 80, Training loss = 0.30716986810239616
+Iteration 90, Training loss = 0.30346031839720866
+Model training time: 26.266175508499146
+0.2939715198651152
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.684656312212276
+Iteration 10, Training loss = 0.3112424316181653
+Iteration 20, Training loss = 0.2848397848974679
+Iteration 30, Training loss = 0.2691212970637469
+Iteration 40, Training loss = 0.2632735734400542
+Iteration 50, Training loss = 0.2605309624602829
+Iteration 60, Training loss = 0.25870161489156135
+Iteration 70, Training loss = 0.2588069077923102
+Iteration 80, Training loss = 0.2565464957972656
+Iteration 90, Training loss = 0.2550541932744104
+Iteration 100, Training loss = 0.2540878111469573
+Iteration 110, Training loss = 0.25505979042410276
+Iteration 120, Training loss = 0.2553535651253617
+Iteration 130, Training loss = 0.25406191598821953
+Iteration 140, Training loss = 0.2550091464162449
+Iteration 150, Training loss = 0.25260058477304986
+Iteration 160, Training loss = 0.2561672002724979
+Iteration 170, Training loss = 0.2530521060101652
+Iteration 180, Training loss = 0.25328078729231
+Iteration 190, Training loss = 0.2538862802484185
+Model training time: 57.3466420173645
+0.2725638151202879
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.8383563110505902
+Iteration 10, Training loss = 0.44988467008019417
+Iteration 20, Training loss = 0.34574483155052443
+Iteration 30, Training loss = 0.33267928566333754
+Iteration 40, Training loss = 0.3266146163577619
+Iteration 50, Training loss = 0.32343609667054696
+Iteration 60, Training loss = 0.3192248460319307
+Iteration 70, Training loss = 0.3164736868246742
+Iteration 80, Training loss = 0.3125921608025325
+Iteration 90, Training loss = 0.3098214260046033
+Iteration 100, Training loss = 0.306497602791026
+Iteration 110, Training loss = 0.3049163248947853
+Iteration 120, Training loss = 0.30109042087614823
+Iteration 130, Training loss = 0.29646939269586464
+Iteration 140, Training loss = 0.29332305267813125
+Iteration 150, Training loss = 0.29021486535596386
+Iteration 160, Training loss = 0.2881282518307368
+Iteration 170, Training loss = 0.2860538968861391
+Iteration 180, Training loss = 0.28446768548177637
+Iteration 190, Training loss = 0.28277718560131276
+Model training time: 51.55964112281799
+0.284113230274558
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.5458487927337775
+Iteration 10, Training loss = 0.2772742772951794
+Iteration 20, Training loss = 0.27000878326558836
+Iteration 30, Training loss = 0.2661820123161095
+Iteration 40, Training loss = 0.26491683566771845
+Iteration 50, Training loss = 0.26321279505888623
+Iteration 60, Training loss = 0.2625687431886
+Iteration 70, Training loss = 0.2612174316736811
+Iteration 80, Training loss = 0.2611048099211449
+Iteration 90, Training loss = 0.26108555312173953
+Iteration 100, Training loss = 0.2599488904942637
+Iteration 110, Training loss = 0.2600322939131571
+Iteration 120, Training loss = 0.25933043503962855
+Iteration 130, Training loss = 0.25854293134621376
+Iteration 140, Training loss = 0.25801983709640547
+Iteration 150, Training loss = 0.2586975391000365
+Iteration 160, Training loss = 0.2569294516807017
+Iteration 170, Training loss = 0.25630532824186886
+Iteration 180, Training loss = 0.25597622220354954
+Iteration 190, Training loss = 0.25559990604718524
+Iteration 200, Training loss = 0.2565863504645905
+Iteration 210, Training loss = 0.2550580358663619
+Iteration 220, Training loss = 0.25562467494448604
+Iteration 230, Training loss = 0.2555539240511719
+Iteration 240, Training loss = 0.25476151074908204
+Iteration 250, Training loss = 0.254385974276181
+Iteration 260, Training loss = 0.2543359372206932
+Iteration 270, Training loss = 0.25428271286441506
+Iteration 280, Training loss = 0.25548050563404523
+Iteration 290, Training loss = 0.2543673823421128
+Model training time: 86.72296595573425
+0.27369797293095
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0857296174275126
+Iteration 10, Training loss = 0.34842757052845424
+Iteration 20, Training loss = 0.3276119612985187
+Iteration 30, Training loss = 0.31985932271837614
+Iteration 40, Training loss = 0.31292321774118764
+Iteration 50, Training loss = 0.3067106593058305
+Iteration 60, Training loss = 0.3028487669672943
+Iteration 70, Training loss = 0.2989263839047888
+Iteration 80, Training loss = 0.2968560064904356
+Iteration 90, Training loss = 0.294650479287341
+Iteration 100, Training loss = 0.2937554048311307
+Iteration 110, Training loss = 0.29207813919742326
+Iteration 120, Training loss = 0.29056728987590125
+Iteration 130, Training loss = 0.28983425237418375
+Iteration 140, Training loss = 0.2879487776381958
+Iteration 150, Training loss = 0.2866438710747134
+Iteration 160, Training loss = 0.28547010466384426
+Iteration 170, Training loss = 0.2843864960371008
+Iteration 180, Training loss = 0.28374568275783374
+Iteration 190, Training loss = 0.28236441846918947
+Iteration 200, Training loss = 0.28188350328788664
+Iteration 210, Training loss = 0.2808629679651076
+Iteration 220, Training loss = 0.27981442788948757
+Iteration 230, Training loss = 0.2791535801069748
+Iteration 240, Training loss = 0.2785814886075863
+Iteration 250, Training loss = 0.27726462098279436
+Iteration 260, Training loss = 0.2779039428141958
+Iteration 270, Training loss = 0.27654590115742983
+Iteration 280, Training loss = 0.2762158452240741
+Iteration 290, Training loss = 0.2754890016383595
+Model training time: 77.25491642951965
+0.28380816332680525
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.8607558006277451
+Iteration 10, Training loss = 0.3025908487347456
+Iteration 20, Training loss = 0.28675658327455705
+Iteration 30, Training loss = 0.2775794794926277
+Iteration 40, Training loss = 0.2729473252995656
+Iteration 50, Training loss = 0.2690341899601313
+Iteration 60, Training loss = 0.2663073522540239
+Iteration 70, Training loss = 0.26558072263231647
+Iteration 80, Training loss = 0.2619282061663958
+Iteration 90, Training loss = 0.26112803902763587
+Model training time: 18.576879501342773
+0.27380015615617564
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.331693562750633
+Iteration 10, Training loss = 0.5772818114895087
+Iteration 20, Training loss = 0.3982092378517756
+Iteration 30, Training loss = 0.37201868327191245
+Iteration 40, Training loss = 0.35514940393085664
+Iteration 50, Training loss = 0.3457696377657927
+Iteration 60, Training loss = 0.34206057296922576
+Iteration 70, Training loss = 0.3340617406826753
+Iteration 80, Training loss = 0.33209528501790303
+Iteration 90, Training loss = 0.3259216327793323
+Model training time: 16.900485038757324
+0.3032755940321864
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 1.0471798525406764
+Iteration 10, Training loss = 0.31794120686558575
+Iteration 20, Training loss = 0.3007858609064267
+Iteration 30, Training loss = 0.2927456002395887
+Iteration 40, Training loss = 0.28784610316730463
+Iteration 50, Training loss = 0.28336493699596477
+Iteration 60, Training loss = 0.2836212193450102
+Iteration 70, Training loss = 0.2804910297004076
+Iteration 80, Training loss = 0.2783138330739278
+Iteration 90, Training loss = 0.28271839667398196
+Iteration 100, Training loss = 0.27568428218364716
+Iteration 110, Training loss = 0.2747580868980059
+Iteration 120, Training loss = 0.27406868524849415
+Iteration 130, Training loss = 0.27405807175315344
+Iteration 140, Training loss = 0.27227923976114166
+Iteration 150, Training loss = 0.27195097892903364
+Iteration 160, Training loss = 0.27208917831572205
+Iteration 170, Training loss = 0.27084193765543974
+Iteration 180, Training loss = 0.2717858726302019
+Iteration 190, Training loss = 0.27043039795870966
+Model training time: 36.714218854904175
+0.28253678791315434
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9143536749940652
+Iteration 10, Training loss = 0.5346067146613047
+Iteration 20, Training loss = 0.43001677095890045
+Iteration 30, Training loss = 0.4024628412265044
+Iteration 40, Training loss = 0.3847773135281526
+Iteration 50, Training loss = 0.3692727270894326
+Iteration 60, Training loss = 0.35944457380817485
+Iteration 70, Training loss = 0.3522029599318138
+Iteration 80, Training loss = 0.3473711513842528
+Iteration 90, Training loss = 0.3446917058183597
+Iteration 100, Training loss = 0.3399377463815304
+Iteration 110, Training loss = 0.3363056659985047
+Iteration 120, Training loss = 0.3334705617565375
+Iteration 130, Training loss = 0.32919550959307414
+Iteration 140, Training loss = 0.32992899804734266
+Iteration 150, Training loss = 0.3250032498572881
+Iteration 160, Training loss = 0.32144452387896866
+Iteration 170, Training loss = 0.3197818912852269
+Iteration 180, Training loss = 0.31749687601740545
+Iteration 190, Training loss = 0.3163165792536277
+Model training time: 32.98336839675903
+0.2984749610560054
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.8878678335593297
+Iteration 10, Training loss = 0.31150938384234905
+Iteration 20, Training loss = 0.2909772331611468
+Iteration 30, Training loss = 0.28166034559790903
+Iteration 40, Training loss = 0.2769855202104037
+Iteration 50, Training loss = 0.27472016501885194
+Iteration 60, Training loss = 0.27050624730495304
+Iteration 70, Training loss = 0.2685599463203779
+Iteration 80, Training loss = 0.2692410954489158
+Iteration 90, Training loss = 0.26548590367803204
+Iteration 100, Training loss = 0.262649106936386
+Iteration 110, Training loss = 0.2612464095537479
+Iteration 120, Training loss = 0.26073877384456307
+Iteration 130, Training loss = 0.2578824497759342
+Iteration 140, Training loss = 0.25679283331219965
+Iteration 150, Training loss = 0.25563077270411527
+Iteration 160, Training loss = 0.2533997300152595
+Iteration 170, Training loss = 0.2541093188696183
+Iteration 180, Training loss = 0.25302687301658666
+Iteration 190, Training loss = 0.25323003029020935
+Iteration 200, Training loss = 0.2544792013672682
+Iteration 210, Training loss = 0.2512045767014989
+Iteration 220, Training loss = 0.25042648792553407
+Iteration 230, Training loss = 0.2512790678212276
+Iteration 240, Training loss = 0.25272120177172697
+Iteration 250, Training loss = 0.251677703542205
+Iteration 260, Training loss = 0.2511555419231837
+Iteration 270, Training loss = 0.24914452290305725
+Iteration 280, Training loss = 0.25011443490019214
+Iteration 290, Training loss = 0.2494813296943903
+Model training time: 55.26561760902405
+0.27128499555005203
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.1427431530677354
+Iteration 10, Training loss = 0.706238424548736
+Iteration 20, Training loss = 0.46973652106065017
+Iteration 30, Training loss = 0.3967911030810613
+Iteration 40, Training loss = 0.36804842576384544
+Iteration 50, Training loss = 0.3571118391477145
+Iteration 60, Training loss = 0.3448978651028413
+Iteration 70, Training loss = 0.3415334068525296
+Iteration 80, Training loss = 0.33839813175682837
+Iteration 90, Training loss = 0.3363491210799951
+Iteration 100, Training loss = 0.33322442466249835
+Iteration 110, Training loss = 0.3329916483221146
+Iteration 120, Training loss = 0.3300076059710521
+Iteration 130, Training loss = 0.328825135786946
+Iteration 140, Training loss = 0.32902024428431803
+Iteration 150, Training loss = 0.32678102501309836
+Iteration 160, Training loss = 0.32675056102184147
+Iteration 170, Training loss = 0.325033699377225
+Iteration 180, Training loss = 0.32461508377813375
+Iteration 190, Training loss = 0.3222100048397596
+Iteration 200, Training loss = 0.3229499957882441
+Iteration 210, Training loss = 0.3216902914528663
+Iteration 220, Training loss = 0.3220068229219088
+Iteration 230, Training loss = 0.3197473023946469
+Iteration 240, Training loss = 0.3194834661598389
+Iteration 250, Training loss = 0.31689496968801206
+Iteration 260, Training loss = 0.3155499556316779
+Iteration 270, Training loss = 0.31541616870806766
+Iteration 280, Training loss = 0.31363985587198
+Iteration 290, Training loss = 0.3136686784430192
+Model training time: 50.24362897872925
+0.29758771806020823
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.001, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.798924373032955
+Iteration 10, Training loss = 0.30331903810684496
+Iteration 20, Training loss = 0.282301964238286
+Iteration 30, Training loss = 0.27230817022231907
+Iteration 40, Training loss = 0.26780754743287194
+Iteration 50, Training loss = 0.26314754569186616
+Iteration 60, Training loss = 0.2602954309147138
+Iteration 70, Training loss = 0.2573246985960465
+Iteration 80, Training loss = 0.2553652350146037
+Iteration 90, Training loss = 0.2537366623202196
+Model training time: 18.44255256652832
+0.27255273457576207
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.8497543638715377
+Iteration 10, Training loss = 0.39266200449604255
+Iteration 20, Training loss = 0.35560714682707417
+Iteration 30, Training loss = 0.3411757865777382
+Iteration 40, Training loss = 0.3327927612341367
+Iteration 50, Training loss = 0.32781439217237324
+Iteration 60, Training loss = 0.3225362548747888
+Iteration 70, Training loss = 0.32119897036598277
+Iteration 80, Training loss = 0.31773262943785924
+Iteration 90, Training loss = 0.31476143618615776
+Model training time: 17.058082580566406
+0.2984746464544522
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 100, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.7084777297881933
+Iteration 10, Training loss = 0.2906269994206153
+Iteration 20, Training loss = 0.2765417556063487
+Iteration 30, Training loss = 0.27129289278617275
+Iteration 40, Training loss = 0.2685930294772753
+Iteration 50, Training loss = 0.26857458456204486
+Iteration 60, Training loss = 0.26401846612302154
+Iteration 70, Training loss = 0.26361468405677724
+Iteration 80, Training loss = 0.2615019168991309
+Iteration 90, Training loss = 0.2614306922142322
+Iteration 100, Training loss = 0.2611010746600536
+Iteration 110, Training loss = 0.2610999619444975
+Iteration 120, Training loss = 0.26132109947502613
+Iteration 130, Training loss = 0.2594302851133622
+Iteration 140, Training loss = 0.26173490242889297
+Iteration 150, Training loss = 0.260417970470511
+Iteration 160, Training loss = 0.26010190552243817
+Iteration 170, Training loss = 0.25990790816453785
+Iteration 180, Training loss = 0.258728123198335
+Iteration 190, Training loss = 0.25946088421803254
+Model training time: 40.72879695892334
+0.27637547167493137
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 0.9121431295688336
+Iteration 10, Training loss = 0.39397552380195033
+Iteration 20, Training loss = 0.3456452256784989
+Iteration 30, Training loss = 0.3308101590149678
+Iteration 40, Training loss = 0.32364281367223996
+Iteration 50, Training loss = 0.3213088884949684
+Iteration 60, Training loss = 0.31643253550506556
+Iteration 70, Training loss = 0.31288517295167995
+Iteration 80, Training loss = 0.3107877926757702
+Iteration 90, Training loss = 0.3085445697204425
+Iteration 100, Training loss = 0.3082878669867149
+Iteration 110, Training loss = 0.3044046235199158
+Iteration 120, Training loss = 0.3034140926141005
+Iteration 130, Training loss = 0.30021735631789154
+Iteration 140, Training loss = 0.30054825286452586
+Iteration 150, Training loss = 0.2962817931547761
+Iteration 160, Training loss = 0.29404550110204863
+Iteration 170, Training loss = 0.29342067127044386
+Iteration 180, Training loss = 0.29125848756386685
+Iteration 190, Training loss = 0.2895963200582908
+Model training time: 36.409146547317505
+0.2866153266288424
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 200, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Device: cuda
+Iteration 0, Training loss = 0.6604014680935786
+Iteration 10, Training loss = 0.29225688986480236
+Iteration 20, Training loss = 0.2775138212511173
+Iteration 30, Training loss = 0.27401693838720137
+Iteration 40, Training loss = 0.2737672177071755
+Iteration 50, Training loss = 0.27081089853667295
+Iteration 60, Training loss = 0.27011197389891517
+Iteration 70, Training loss = 0.2693161593320278
+Iteration 80, Training loss = 0.26610220997379375
+Iteration 90, Training loss = 0.26705231560537446
+Iteration 100, Training loss = 0.2655416547249143
+Iteration 110, Training loss = 0.26566678629471707
+Iteration 120, Training loss = 0.26316484278784347
+Iteration 130, Training loss = 0.2637857683002949
+Iteration 140, Training loss = 0.263003026206906
+Iteration 150, Training loss = 0.2608838158731277
+Iteration 160, Training loss = 0.26293207776661104
+Iteration 170, Training loss = 0.26178437292289275
+Iteration 180, Training loss = 0.2584366908726784
+Iteration 190, Training loss = 0.259892090725211
+Iteration 200, Training loss = 0.25873190737687624
+Iteration 210, Training loss = 0.2589946979513535
+Iteration 220, Training loss = 0.25947536470798344
+Iteration 230, Training loss = 0.2573057904552955
+Iteration 240, Training loss = 0.25798048093341863
+Iteration 250, Training loss = 0.2590714724591145
+Iteration 260, Training loss = 0.2567212199075864
+Iteration 270, Training loss = 0.2578634877617543
+Iteration 280, Training loss = 0.25750077759417206
+Iteration 290, Training loss = 0.2557525715002647
+Model training time: 58.43330240249634
+0.2744169548683207
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [8], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Device: cuda
+Iteration 0, Training loss = 1.0698685571551323
+Iteration 10, Training loss = 0.47102355383909666
+Iteration 20, Training loss = 0.3865722506665267
+Iteration 30, Training loss = 0.3585766846170792
+Iteration 40, Training loss = 0.34772827161046177
+Iteration 50, Training loss = 0.33564687548921657
+Iteration 60, Training loss = 0.33276754130537695
+Iteration 70, Training loss = 0.32500034026228464
+Iteration 80, Training loss = 0.3214654396646298
+Iteration 90, Training loss = 0.32316358530750644
+Iteration 100, Training loss = 0.31685878723286665
+Iteration 110, Training loss = 0.31393021502746987
+Iteration 120, Training loss = 0.3125293885286038
+Iteration 130, Training loss = 0.3118841383033074
+Iteration 140, Training loss = 0.310001579614786
+Iteration 150, Training loss = 0.30748145124660087
+Iteration 160, Training loss = 0.3061971382166331
+Iteration 170, Training loss = 0.30818326484698516
+Iteration 180, Training loss = 0.3028609494033914
+Iteration 190, Training loss = 0.3015299319791106
+Iteration 200, Training loss = 0.30369256178920084
+Iteration 210, Training loss = 0.30030557298316407
+Iteration 220, Training loss = 0.2983788618674645
+Iteration 230, Training loss = 0.29767644219100475
+Iteration 240, Training loss = 0.29621479072822976
+Iteration 250, Training loss = 0.2991939510863561
+Iteration 260, Training loss = 0.2962453458458185
+Iteration 270, Training loss = 0.2932484712308416
+Iteration 280, Training loss = 0.2938683869747015
+Iteration 290, Training loss = 0.2941105305575408
+Model training time: 49.57307577133179
+0.29045546385258575
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+{'activation_functions': ['relu'], 'batch_size': 128, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [12, 4], 'optimizer_type': <class 'torch.optim.sgd.SGD'>}
+Skipping configuration due to error: The number of neuron layers does not match the number of activation functions.
+best score: 50569.32407813534 
+ best params: {'activation_functions': ['relu', 'relu'], 'batch_size': 64, 'learning_rate': 0.002, 'nb_epoch': 300, 'neuron_layers': [16, 8], 'optimizer_type': <class 'torch.optim.adam.Adam'>}
+/var/spool/slurm/d/job102226/slurm_script: line 10: /user/bin/nividia-smi: No such file or directory
+ 18:40:03 up 40 days,  9:04,  4 users,  load average: 3.08, 3.04, 2.69
