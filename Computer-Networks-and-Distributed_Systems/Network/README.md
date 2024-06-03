@@ -5,7 +5,7 @@ You can work individually or in groups of two.
 In this exercise, you are asked to work as a network engineer and configure the networking infrastructure of your company.
 The topology of the infrastructure can be seen in the next Figure.
 
-![Network Topology](img/architecture.jpeg)
+![Network Topology](img/subnet.png)
 
 The topology consists of three different routers (R1-R2) and four hosts (h1-h4).
 The Figure indicates in light grey the different subnets and their size.
