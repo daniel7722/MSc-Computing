@@ -1,0 +1,66 @@
+Findings for Course Work 1:
+
+Before getting into the discussion of difficulties of all the mystery
+ file, it's crucial to understand how the solve_board function works
+ behind the scene. The solve_board function is a recursive funciton
+ that iterates over the entire 2-Dimensional Sudoku board, square by
+ square from top left to bottom right. Each iteration will test one
+ number from 1 - 9 and if it's a valid move, it proceeds to the next
+ square; whereas if it's not a valid move, it tests the next number
+ and if all numbers are invalid, it restores the square to an empty
+ square and get back to the previous square. Based on this algorithm,
+ I suppose that the number of recursive call directly indicates the
+ difficulty of a board because there's more possibilities that the
+ algorithm needs to go through. On the other hand, if there was only
+ one empty square in a board, there would only be a very small number
+ of calls of recursive function to solve the board. In view of this
+ observation or hypothesis, I developed a difficulty function that
+ loads the board, solves the board, calculates the number of recursive
+ function call, and records the number attempts to filled in numbers.
+ This way, we can compare the difficulty of each board by numeric
+ parameters. Also, a more generic and straightforward way to inspect
+ is to calculate the time taken to solve a board. Therefore, this
+ mehtod is also implemented in the difficulty function. With three
+ numerical paramenters to test the difficulty of a board, I tested
+ 'mystery1.dat', 'mystery2.dat', and 'mystery3.dat'. In addition, I
+ tested 'easy.dat' and 'medium.dat' as references. Please take a look
+ at the following results:
+
+Calling load_board():
+Loading Sudoku board from file 'easy.dat'... Success!
+easy.dat takes 3050 recursive function calls to solve the board
+easy.dat takes 2171 try to solve the board
+The time taken to find this solution is 339 microseconds!
+
+Calling load_board():
+Loading Sudoku board from file 'medium.dat'... Success!
+medium.dat takes 21095 recursive function calls to solve the board
+medium.dat takes 15661 try to solve the board
+The time taken to find this solution is 2298 microseconds!
+
+Calling load_board():
+Loading Sudoku board from file 'mystery1.dat'... Success!
+mystery1.dat takes 587299 recursive function calls to solve the board
+mystery1.dat takes 421546 try to solve the board
+The time taken to find this solution is 56474 microseconds!
+
+Calling load_board():
+Loading Sudoku board from file 'mystery2.dat'... Success!
+A solution cannot be found.
+
+Calling load_board():
+Loading Sudoku board from file 'mystery3.dat'... Success!
+mystery3.dat takes 22411 recursive function calls to solve the board
+mystery3.dat takes 14133 try to solve the board
+The time taken to find this solution is 2083 microseconds!
+
+
+To sum up, based on the results, I found that hypothesis might be
+ nullified by the fact that 'medium.dat' takes longer than
+ 'mystery3.dat' and similar numbers of function call and attempts to
+ solve. Therefore, it might be inaccurate to capture the difficulties
+ solely using the function calls or number of attempts. Other than
+ this observation, 'mystery2.dat' has no solution so it's reasonable
+ to assume it is impossible to solve. 'mystery1.dat' takes a lot more
+ function calls, time, attpemts to solve so clearly it is clsssified
+ as extremetly hard.
