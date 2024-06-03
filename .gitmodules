@@ -1,0 +1,6 @@
+[submodule "Computer-Networks-and-Distributed_Systems/Computer-Networks-and-Distributed_Systems"]
+	path = Computer-Networks-and-Distributed_Systems/Computer-Networks-and-Distributed_Systems
+	url = https://github.com/daniel7722/distributed-system.git
+[submodule "Computer-Networks-and-Distributed-Systems/Distributed-Systems"]
+	path = Computer-Networks-and-Distributed-Systems/Distributed-Systems
+	url = https://github.com/daniel7722/distributed-system.git
