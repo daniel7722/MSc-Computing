@@ -1,0 +1,26 @@
+apply plugin: 'java'
+
+group = 'uk.ac.ic.doc'
+version = '1.0.0'
+
+description = """575 Exam"""
+
+sourceCompatibility = 1.10
+targetCompatibility = 1.10
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    compile fileTree(dir:'lib', include: ['*.jar'])
+}
+
+test {
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+    }
+}
+
+sourceSets.main.java.srcDirs = ['Q1/src/main/java', 'Q2/src/main/java', 'Q3/src/main/java', 'Q4/src/main/java', 'JavaExamples/src/main/java']
+sourceSets.test.java.srcDirs = ['Q1/src/test/java', 'Q2/src/test/java', 'Q3/src/test/java', 'Q4/src/test/java']
